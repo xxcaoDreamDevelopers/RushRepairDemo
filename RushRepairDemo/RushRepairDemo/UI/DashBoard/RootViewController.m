@@ -45,8 +45,6 @@
 
 @property(nonatomic,weak)IBOutlet UIButton *btn1;
 @property(nonatomic,weak)IBOutlet UIButton *btn2;
-@property(nonatomic,weak)IBOutlet UIButton *btn3;
-@property(nonatomic,weak)IBOutlet UIButton *btn4;
 @property(nonatomic,weak)IBOutlet UIButton *btn5;
 @property(nonatomic,weak)IBOutlet UIButton *btn6;
 @property(nonatomic,weak)IBOutlet UIButton *btn7;
@@ -111,32 +109,12 @@
     [self animationViewOriginalView];
 }
 
-//采集运维
-- (IBAction)collectOprationAction:(id)sender {
-    if (self.btn3.userInteractionEnabled) {
-        [self setBtnEnabled:3];
-        [self jumpToVCWithAnimation:ESpecialView];
-    }
- }
 
-- (IBAction)collectOprationAction2:(id)sender {
-    [self animationView:self.rootCollectView];
-}
-
-- (IBAction)collectOprationAction3:(id)sender {
-    [self animationViewOriginalView];
-}
-
-//其他作业
-- (IBAction)otherWorkAction:(id)sender {
-    [[MBProgressController sharedInstance] showTipsOnlyText:@"正在开发中..." AndDelay:1.5];
-}
-
-//知识库
+//特殊巡视
 - (IBAction)knowledgeAction:(UIButton *)sender {
     if (self.btn5.userInteractionEnabled) {
         [self setBtnEnabled:5];
-        [self jumpToVCWithAnimation:ENormalView];
+        [self jumpToVCWithAnimation:ESpecialView];
     }
  }
 
@@ -149,17 +127,18 @@
 }
 
 
-//在线考试
+//正常巡视
 - (IBAction)monthIntegrationAction:(id)sender {
     if (self.btn6.userInteractionEnabled) {
         [self setBtnEnabled:6];
-        [self jumpToVCWithAnimation:EScore];
+        [self jumpToVCWithAnimation:ENormalView];
     }
 }
 
 - (IBAction)monthIntegrationAction2:(id)sender {
     [self animationView:self.rootTestView];
 }
+
 - (IBAction)monthIntegrationAction3:(id)sender {
     [self animationViewOriginalView];
 }
@@ -175,6 +154,7 @@
 - (IBAction)integrationAction2:(UIButton *)sender {
     [self animationView:self.rootPerformenceView];
 }
+
 - (IBAction)integrationAction3:(UIButton *)sender {
     [self animationViewOriginalView];
 }
@@ -233,8 +213,6 @@
 - (void)setBtnEnabled:(int)index {
     self.btn1.userInteractionEnabled = NO;
     self.btn2.userInteractionEnabled = NO;
-    self.btn3.userInteractionEnabled = NO;
-    self.btn4.userInteractionEnabled = NO;
     self.btn5.userInteractionEnabled = NO;
     self.btn6.userInteractionEnabled = NO;
     self.btn7.userInteractionEnabled = NO;
@@ -246,14 +224,6 @@
         }
         case 2:{
             self.btn2.userInteractionEnabled = YES;
-            break;
-        }
-        case 3:{
-            self.btn3.userInteractionEnabled = YES;
-            break;
-        }
-        case 4:{
-            self.btn4.userInteractionEnabled = YES;
             break;
         }
         case 5:{
@@ -276,8 +246,6 @@
 - (void)restorePrevious {
     self.btn1.userInteractionEnabled = YES;
     self.btn2.userInteractionEnabled = YES;
-    self.btn3.userInteractionEnabled = YES;
-    self.btn4.userInteractionEnabled = YES;
     self.btn5.userInteractionEnabled = YES;
     self.btn6.userInteractionEnabled = YES;
     self.btn7.userInteractionEnabled = YES;
