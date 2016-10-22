@@ -12,6 +12,9 @@
 #import <BaiduMapAPI_Base/BMKMapManager.h>
 #import "MBProgressController.h"
 #import "RushRepairDemo-Swift.h"
+#import "UIImage+TYLaunchImage.h"
+#import "UIView+TYLaunchAnimation.h"
+#import "TYLaunchFadeScaleAnimation.h"
 
 @interface AppDelegate ()<BMKGeneralDelegate>
 
@@ -33,6 +36,14 @@
     MMDrawerController *rootViewController = [UIManager initGlobalUI];
     self.window.rootViewController = rootViewController;
     [self.window makeKeyAndVisible];
+    
+    //launch image
+    UIImageView *screenImageView = [[UIImageView alloc] initWithImage:[UIImage ty_getLaunchImage]];
+    [screenImageView showInWindowWithAnimation:[TYLaunchFadeScaleAnimation fadeScaleAnimation]
+                                    completion:^(BOOL finished) {
+                                        [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
+                                        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+                                    }];
     return YES;
 }
 

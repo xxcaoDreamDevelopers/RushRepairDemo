@@ -10,7 +10,6 @@
 		1D35E4071DB9AA1800454C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E4061DB9AA1800454C5D /* main.m */; };
 		1D35E40A1DB9AA1800454C5D /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E4091DB9AA1800454C5D /* AppDelegate.mm */; };
 		1D35E4121DB9AA1800454C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D35E4111DB9AA1800454C5D /* Assets.xcassets */; };
-		1D35E4151DB9AA1800454C5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D35E4131DB9AA1800454C5D /* LaunchScreen.storyboard */; };
 		1D35E5931DB9B03B00454C5D /* NSArray+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E4291DB9B03A00454C5D /* NSArray+YYAdd.m */; };
 		1D35E5941DB9B03B00454C5D /* NSBundle+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E42B1DB9B03A00454C5D /* NSBundle+YYAdd.m */; };
 		1D35E5951DB9B03B00454C5D /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E42D1DB9B03A00454C5D /* NSData+YYAdd.m */; };
@@ -215,6 +214,11 @@
 		1D35E6E01DB9FA1A00454C5D /* WXSTransitionManager+ViewMoveAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E6CD1DB9FA1A00454C5D /* WXSTransitionManager+ViewMoveAnimation.m */; };
 		1D35E6E11DB9FA1A00454C5D /* WXSTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E6CF1DB9FA1A00454C5D /* WXSTransitionManager.m */; };
 		1D35E6E21DB9FA1A00454C5D /* WXSTransitionProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E6D11DB9FA1A00454C5D /* WXSTransitionProperty.m */; };
+		1DD1C5F81DBB993000325B9D /* TYLaunchBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1C5F11DBB993000325B9D /* TYLaunchBaseAnimation.m */; };
+		1DD1C5F91DBB993000325B9D /* TYLaunchFadeScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1C5F31DBB993000325B9D /* TYLaunchFadeScaleAnimation.m */; };
+		1DD1C5FA1DBB993000325B9D /* UIImage+TYLaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1C5F51DBB993000325B9D /* UIImage+TYLaunchImage.m */; };
+		1DD1C5FB1DBB993000325B9D /* UIView+TYLaunchAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1C5F71DBB993000325B9D /* UIView+TYLaunchAnimation.m */; };
+		1DD1C5FD1DBB9A4D00325B9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD1C5FC1DBB9A4D00325B9D /* Images.xcassets */; };
 		1DD68CC51DBB1331001A9923 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CC41DBB1331001A9923 /* libstdc++.6.0.9.tbd */; };
 		1DD68CC71DBB1344001A9923 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CC61DBB1344001A9923 /* Security.framework */; };
 		1DD68CC91DBB1353001A9923 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CC81DBB1353001A9923 /* JavaScriptCore.framework */; };
@@ -324,7 +328,6 @@
 		1D35E4081DB9AA1800454C5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D35E4091DB9AA1800454C5D /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		1D35E4111DB9AA1800454C5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1D35E4141DB9AA1800454C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D35E4161DB9AA1800454C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D35E4281DB9B03A00454C5D /* NSArray+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YYAdd.h"; sourceTree = "<group>"; };
 		1D35E4291DB9B03A00454C5D /* NSArray+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YYAdd.m"; sourceTree = "<group>"; };
@@ -742,6 +745,16 @@
 		1D35E6D01DB9FA1A00454C5D /* WXSTransitionProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSTransitionProperty.h; sourceTree = "<group>"; };
 		1D35E6D11DB9FA1A00454C5D /* WXSTransitionProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSTransitionProperty.m; sourceTree = "<group>"; };
 		1D35E6D21DB9FA1A00454C5D /* WXSTypedefConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSTypedefConfig.h; sourceTree = "<group>"; };
+		1DD1C5EF1DBB993000325B9D /* TYLaunchAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLaunchAnimationProtocol.h; sourceTree = "<group>"; };
+		1DD1C5F01DBB993000325B9D /* TYLaunchBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLaunchBaseAnimation.h; sourceTree = "<group>"; };
+		1DD1C5F11DBB993000325B9D /* TYLaunchBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLaunchBaseAnimation.m; sourceTree = "<group>"; };
+		1DD1C5F21DBB993000325B9D /* TYLaunchFadeScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLaunchFadeScaleAnimation.h; sourceTree = "<group>"; };
+		1DD1C5F31DBB993000325B9D /* TYLaunchFadeScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLaunchFadeScaleAnimation.m; sourceTree = "<group>"; };
+		1DD1C5F41DBB993000325B9D /* UIImage+TYLaunchImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TYLaunchImage.h"; sourceTree = "<group>"; };
+		1DD1C5F51DBB993000325B9D /* UIImage+TYLaunchImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TYLaunchImage.m"; sourceTree = "<group>"; };
+		1DD1C5F61DBB993000325B9D /* UIView+TYLaunchAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYLaunchAnimation.h"; sourceTree = "<group>"; };
+		1DD1C5F71DBB993000325B9D /* UIView+TYLaunchAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYLaunchAnimation.m"; sourceTree = "<group>"; };
+		1DD1C5FC1DBB9A4D00325B9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1DD68CC41DBB1331001A9923 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		1DD68CC61DBB1344001A9923 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		1DD68CC81DBB1353001A9923 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -953,11 +966,11 @@
 				1D35E4161DB9AA1800454C5D /* Info.plist */,
 				1D35E4111DB9AA1800454C5D /* Assets.xcassets */,
 				1D35E41E1DB9ACAA00454C5D /* 3rd */,
-				1D35E4131DB9AA1800454C5D /* LaunchScreen.storyboard */,
 				1D35E41D1DB9ACAA00454C5D /* Manager */,
 				1D35E4051DB9AA1800454C5D /* Supporting Files */,
 				1D35E41F1DB9ACAA00454C5D /* UI */,
 				1D35E41C1DB9ACAA00454C5D /* Utility */,
+				1DD1C5FC1DBB9A4D00325B9D /* Images.xcassets */,
 			);
 			path = RushRepairDemo;
 			sourceTree = "<group>";
@@ -997,8 +1010,8 @@
 		1D35E41E1DB9ACAA00454C5D /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
-				1DD68E571DBB72B5001A9923 /* BaiduNaviSDK */,
 				1DD68E331DBB52A3001A9923 /* BaiduMapSDK */,
+				1DD68E571DBB72B5001A9923 /* BaiduNaviSDK */,
 				1DD68E271DBB42E0001A9923 /* BlockUI */,
 				1D35E4D61DB9B03A00454C5D /* HYBHelperKitSources */,
 				1D35E5211DB9B03A00454C5D /* IQKeyboardManager */,
@@ -1007,6 +1020,7 @@
 				1D35E5641DB9B03A00454C5D /* MJRefresh */,
 				1D35E6511DB9C08400454C5D /* MMDrawerController */,
 				1DD68D421DBB261E001A9923 /* SnapKit */,
+				1DD1C5EE1DBB993000325B9D /* TYLaunchAnimation */,
 				1D35E6B11DB9FA1A00454C5D /* WXSTransition */,
 				1D35E4251DB9B03A00454C5D /* YYKit */,
 			);
@@ -1840,6 +1854,22 @@
 			path = WXSTransition;
 			sourceTree = "<group>";
 		};
+		1DD1C5EE1DBB993000325B9D /* TYLaunchAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1DD1C5EF1DBB993000325B9D /* TYLaunchAnimationProtocol.h */,
+				1DD1C5F01DBB993000325B9D /* TYLaunchBaseAnimation.h */,
+				1DD1C5F11DBB993000325B9D /* TYLaunchBaseAnimation.m */,
+				1DD1C5F21DBB993000325B9D /* TYLaunchFadeScaleAnimation.h */,
+				1DD1C5F31DBB993000325B9D /* TYLaunchFadeScaleAnimation.m */,
+				1DD1C5F41DBB993000325B9D /* UIImage+TYLaunchImage.h */,
+				1DD1C5F51DBB993000325B9D /* UIImage+TYLaunchImage.m */,
+				1DD1C5F61DBB993000325B9D /* UIView+TYLaunchAnimation.h */,
+				1DD1C5F71DBB993000325B9D /* UIView+TYLaunchAnimation.m */,
+			);
+			path = TYLaunchAnimation;
+			sourceTree = "<group>";
+		};
 		1DD68CE81DBB22C4001A9923 /* MapView */ = {
 			isa = PBXGroup;
 			children = (
@@ -2163,7 +2193,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DD68E8A1DBB72B5001A9923 /* baiduNaviSDK.bundle in Resources */,
-				1D35E4151DB9AA1800454C5D /* LaunchScreen.storyboard in Resources */,
 				1D35E62D1DB9B03B00454C5D /* MJRefresh.bundle in Resources */,
 				1DD68E021DBB30A1001A9923 /* TaskDetailCell.xib in Resources */,
 				1D35E67F1DB9EFD500454C5D /* 37x-Checkmark@2x.png in Resources */,
@@ -2174,6 +2203,7 @@
 				1D35E6691DB9CFB300454C5D /* LeftMenuViewController.xib in Resources */,
 				1DD68E461DBB56E3001A9923 /* mapdata.plist in Resources */,
 				1D35E6761DB9EE8200454C5D /* RootViewController_4.7.xib in Resources */,
+				1DD1C5FD1DBB9A4D00325B9D /* Images.xcassets in Resources */,
 				1DD68DF81DBB30A1001A9923 /* TestVC.xib in Resources */,
 				1DD68E441DBB5313001A9923 /* mapapi.bundle in Resources */,
 				1D35E4121DB9AA1800454C5D /* Assets.xcassets in Resources */,
@@ -2222,6 +2252,7 @@
 				1D35E6161DB9B03B00454C5D /* MASConstraintMaker.m in Sources */,
 				1DD68DFE1DBB30A1001A9923 /* NewTaskDetailFooter.m in Sources */,
 				1D35E61F1DB9B03B00454C5D /* MJRefreshAutoFooter.m in Sources */,
+				1DD1C5FA1DBB993000325B9D /* UIImage+TYLaunchImage.m in Sources */,
 				1D35E5B51DB9B03B00454C5D /* _YYWebImageSetter.m in Sources */,
 				1D35E6DA1DB9FA1A00454C5D /* WXSTransitionManager+FragmentAnimation.m in Sources */,
 				1DD68D741DBB261E001A9923 /* ConstraintMaker.swift in Sources */,
@@ -2234,6 +2265,7 @@
 				1D35E5B61DB9B03B00454C5D /* CALayer+YYWebImage.m in Sources */,
 				1DD68E131DBB37C7001A9923 /* UIControl+ActionBlocks.m in Sources */,
 				1D35E5E31DB9B03B00454C5D /* YYWeakProxy.m in Sources */,
+				1DD1C5F81DBB993000325B9D /* TYLaunchBaseAnimation.m in Sources */,
 				1D35E5CA1DB9B03B00454C5D /* YYTextLine.m in Sources */,
 				1D35E6191DB9B03B00454C5D /* MASViewConstraint.m in Sources */,
 				1D35E5FC1DB9B03B00454C5D /* UIControl+HYBHelperBlockKit.m in Sources */,
@@ -2288,6 +2320,7 @@
 				1DD68CF91DBB22C4001A9923 /* Map_top_detailView.swift in Sources */,
 				1D35E5B31DB9B03B00454C5D /* YYKVStorage.m in Sources */,
 				1D35E5A71DB9B03B00454C5D /* UIControl+YYAdd.m in Sources */,
+				1DD1C5F91DBB993000325B9D /* TYLaunchFadeScaleAnimation.m in Sources */,
 				1D35E61B1DB9B03B00454C5D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				1D35E6E11DB9FA1A00454C5D /* WXSTransitionManager.m in Sources */,
 				1D35E6041DB9B03B00454C5D /* IQNSArray+Sort.m in Sources */,
@@ -2392,6 +2425,7 @@
 				1D35E64C1DB9B3E300454C5D /* Common.m in Sources */,
 				1D35E65D1DB9C08400454C5D /* MMDrawerVisualState.m in Sources */,
 				1DD68D761DBB261E001A9923 /* ConstraintMakerExtendable.swift in Sources */,
+				1DD1C5FB1DBB993000325B9D /* UIView+TYLaunchAnimation.m in Sources */,
 				1D35E5FA1DB9B03B00454C5D /* UIWebView+HYBMasonryKit.m in Sources */,
 				1DD68E061DBB30A1001A9923 /* TaskDetailView.m in Sources */,
 				1D35E5B81DB9B03B00454C5D /* UIButton+YYWebImage.m in Sources */,
@@ -2454,17 +2488,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		1D35E4131DB9AA1800454C5D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D35E4141DB9AA1800454C5D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D35E4171DB9AA1800454C5D /* Debug */ = {
@@ -2564,6 +2587,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = FAT69R69RF;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2594,6 +2618,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = FAT69R69RF;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
