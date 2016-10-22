@@ -242,9 +242,9 @@ class MapViewController: Base_BaiDuMap, UIGestureRecognizerDelegate {
         self.view.addSubview(map_detailView)
         map_detailView.home_bottomView_detail?.frame.size = CGSize.zero
         map_detailView.backView?.frame.size = CGSize.zero;
+        
         map_detailView.navigate_btnClicked = {(btn: UIButton ) -> Void in
-//            let userInfo = UserInfoViewController()
-//            self.navigationController?.pushViewController(userInfo, animated: true)
+            self.navigationController!.popViewController(animated: true)
         }
     }
     

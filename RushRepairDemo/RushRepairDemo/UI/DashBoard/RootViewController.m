@@ -174,17 +174,12 @@
             break;
         }
         case ERushRepair: {
-//            RRRushRepairViewController *rushRepairVC = [[RRRushRepairViewController alloc] init];
-//            [self.navigationController wxs_pushViewController:rushRepairVC makeTransition:^(WXSTransitionProperty *transition) {
-//                transition.animationType = WXSTransitionAnimationTypeBoom;
-//                transition.animationTime = 0.6;
-//            }];
-            
             
             MapViewController *mapVC = [[MapViewController alloc] init];
             [self.navigationController wxs_pushViewController:mapVC makeTransition:^(WXSTransitionProperty *transition) {
                 transition.animationType = WXSTransitionAnimationTypeBoom;
                 transition.animationTime = 0.6;
+                transition.backGestureEnable = NO;
             }];
             break;
         }
