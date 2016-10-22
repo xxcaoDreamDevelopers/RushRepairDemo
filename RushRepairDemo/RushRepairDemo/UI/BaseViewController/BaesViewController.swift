@@ -14,7 +14,7 @@ class BaesViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.red
+        view.backgroundColor = UIColor.white
         self.automaticallyAdjustsScrollViewInsets = false;
         self.edgesForExtendedLayout = .all;
         
