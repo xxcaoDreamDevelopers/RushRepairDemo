@@ -77,4 +77,43 @@ static NSString *const QiNiuAccessKey = @"M82sZ5xflkxGQr1Kyi0VTG9UUid5PYBqYCzGgx
 static NSString *const QiNiuSecretKey = @"t9uR0JgBozDzQduR9h-HS0p-nye7Vm2cYIlGkkem";
 #define QiNiuBaseUrl @"http://oez5w6mq8.bkt.clouddn.com/"
 
+
+typedef NS_ENUM(NSInteger ,EFilterType) {
+    EFilterTypeSourceTelphone = 0,//电话报修
+    EFilterTypeSourceSystem,//平台检测1
+    EFilterTypeSourceTour,//巡视报修2
+    EFilterTypeSourceUnConfirm,//未确认3
+    EFilterTypeSourceNormalTour,//正常巡视4
+    EFilterTypeSourceSpecialTour,//特殊巡视5
+    EFilterTypeSourceTemporaryRepair,//临检6
+    EFilterTypeSourcePlanRepair,//检修7
+    EFilterTypeSource95598,//95598电话报修8
+    EFilterTypeSourceOther,//其他来源9
+    EFilterTypeSourceCustomService,//客户服务10
+};
+
+typedef NS_ENUM(NSInteger ,EItemType) {
+    EItemTypeCustomService,//客服
+    EItemTypePlanRepair,//检修
+    EItemTypeSpecialTour,//特巡
+    EItemTypeTour,//巡视
+    EItemTypeFailureTask,//失败
+    EItemTypeTemporaryRepair//临检
+};
+
+//工单状态
+typedef NS_ENUM(NSInteger ,EDeviceType) {
+    EDeviceTypeAC,//交流充电桩
+    EDeviceTypeDC,//直流充电桩
+    
+};
+
+//工单状态
+typedef NS_ENUM(NSInteger ,ETaskType) {
+    ETaskTypeUnreceive,//未领取
+    ETaskTypeUndo,//已领取未执行
+    ETaskTypeUnConfirm,//已提交未确认
+    ETaskTypeFailure,//失败
+};
+
 #endif /* Constant_h */

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D35E4071DB9AA1800454C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E4061DB9AA1800454C5D /* main.m */; };
-		1D35E40A1DB9AA1800454C5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E4091DB9AA1800454C5D /* AppDelegate.m */; };
+		1D35E40A1DB9AA1800454C5D /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E4091DB9AA1800454C5D /* AppDelegate.mm */; };
 		1D35E4121DB9AA1800454C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D35E4111DB9AA1800454C5D /* Assets.xcassets */; };
 		1D35E4151DB9AA1800454C5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D35E4131DB9AA1800454C5D /* LaunchScreen.storyboard */; };
 		1D35E5931DB9B03B00454C5D /* NSArray+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E4291DB9B03A00454C5D /* NSArray+YYAdd.m */; };
@@ -215,13 +215,114 @@
 		1D35E6E01DB9FA1A00454C5D /* WXSTransitionManager+ViewMoveAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E6CD1DB9FA1A00454C5D /* WXSTransitionManager+ViewMoveAnimation.m */; };
 		1D35E6E11DB9FA1A00454C5D /* WXSTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E6CF1DB9FA1A00454C5D /* WXSTransitionManager.m */; };
 		1D35E6E21DB9FA1A00454C5D /* WXSTransitionProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E6D11DB9FA1A00454C5D /* WXSTransitionProperty.m */; };
+		1DD68CC51DBB1331001A9923 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CC41DBB1331001A9923 /* libstdc++.6.0.9.tbd */; };
+		1DD68CC71DBB1344001A9923 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CC61DBB1344001A9923 /* Security.framework */; };
+		1DD68CC91DBB1353001A9923 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CC81DBB1353001A9923 /* JavaScriptCore.framework */; };
+		1DD68CCB1DBB135E001A9923 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CCA1DBB135E001A9923 /* AdSupport.framework */; };
+		1DD68CCD1DBB1364001A9923 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CCC1DBB1364001A9923 /* SystemConfiguration.framework */; };
+		1DD68CCF1DBB1372001A9923 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CCE1DBB1372001A9923 /* AVFoundation.framework */; };
+		1DD68CD11DBB137A001A9923 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CD01DBB137A001A9923 /* MediaPlayer.framework */; };
+		1DD68CD31DBB138C001A9923 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CD21DBB138C001A9923 /* CoreTelephony.framework */; };
+		1DD68CD51DBB1394001A9923 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CD41DBB1394001A9923 /* CoreLocation.framework */; };
+		1DD68CD71DBB139C001A9923 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CD61DBB139C001A9923 /* CoreMotion.framework */; };
+		1DD68CD91DBB13AA001A9923 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CD81DBB13AA001A9923 /* ImageIO.framework */; };
+		1DD68CDB1DBB13B7001A9923 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CDA1DBB13B7001A9923 /* AudioToolbox.framework */; };
+		1DD68CDD1DBB13C5001A9923 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CDC1DBB13C5001A9923 /* GLKit.framework */; };
+		1DD68CDF1DBB13D2001A9923 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CDE1DBB13D2001A9923 /* OpenGLES.framework */; };
+		1DD68CE11DBB13E3001A9923 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CE01DBB13E3001A9923 /* CoreGraphics.framework */; };
+		1DD68CE31DBB13F5001A9923 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CE21DBB13F5001A9923 /* libz.1.2.5.tbd */; };
+		1DD68CE51DBB1455001A9923 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CE41DBB1455001A9923 /* MessageUI.framework */; };
+		1DD68CE71DBB1464001A9923 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68CE61DBB1464001A9923 /* QuartzCore.framework */; };
+		1DD68CF51DBB22C4001A9923 /* TempTaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68CEA1DBB22C4001A9923 /* TempTaskModel.swift */; };
+		1DD68CF61DBB22C4001A9923 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68CED1DBB22C4001A9923 /* MapViewController.swift */; };
+		1DD68CF71DBB22C4001A9923 /* MapTaskViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68CEF1DBB22C4001A9923 /* MapTaskViewData.swift */; };
+		1DD68CF81DBB22C4001A9923 /* Map_bottom_detailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68CF31DBB22C4001A9923 /* Map_bottom_detailView.swift */; };
+		1DD68CF91DBB22C4001A9923 /* Map_top_detailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68CF41DBB22C4001A9923 /* Map_top_detailView.swift */; };
+		1DD68CFC1DBB23FB001A9923 /* BaesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68CFA1DBB23FB001A9923 /* BaesViewController.swift */; };
+		1DD68CFD1DBB23FB001A9923 /* Base_BaiDuMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68CFB1DBB23FB001A9923 /* Base_BaiDuMap.swift */; };
+		1DD68D661DBB261E001A9923 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D441DBB261E001A9923 /* Constraint.swift */; };
+		1DD68D671DBB261E001A9923 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D451DBB261E001A9923 /* ConstraintAttributes.swift */; };
+		1DD68D681DBB261E001A9923 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D461DBB261E001A9923 /* ConstraintConfig.swift */; };
+		1DD68D691DBB261E001A9923 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D471DBB261E001A9923 /* ConstraintConstantTarget.swift */; };
+		1DD68D6A1DBB261E001A9923 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D481DBB261E001A9923 /* ConstraintDescription.swift */; };
+		1DD68D6B1DBB261E001A9923 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D491DBB261E001A9923 /* ConstraintDSL.swift */; };
+		1DD68D6C1DBB261E001A9923 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D4A1DBB261E001A9923 /* ConstraintInsets.swift */; };
+		1DD68D6D1DBB261E001A9923 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D4B1DBB261E001A9923 /* ConstraintInsetTarget.swift */; };
+		1DD68D6E1DBB261E001A9923 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D4C1DBB261E001A9923 /* ConstraintItem.swift */; };
+		1DD68D6F1DBB261E001A9923 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D4D1DBB261E001A9923 /* ConstraintLayoutGuide+Extensions.swift */; };
+		1DD68D701DBB261E001A9923 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D4E1DBB261E001A9923 /* ConstraintLayoutGuide.swift */; };
+		1DD68D711DBB261E001A9923 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D4F1DBB261E001A9923 /* ConstraintLayoutGuideDSL.swift */; };
+		1DD68D721DBB261E001A9923 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D501DBB261E001A9923 /* ConstraintLayoutSupport.swift */; };
+		1DD68D731DBB261E001A9923 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D511DBB261E001A9923 /* ConstraintLayoutSupportDSL.swift */; };
+		1DD68D741DBB261E001A9923 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D521DBB261E001A9923 /* ConstraintMaker.swift */; };
+		1DD68D751DBB261E001A9923 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D531DBB261E001A9923 /* ConstraintMakerEditable.swift */; };
+		1DD68D761DBB261E001A9923 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D541DBB261E001A9923 /* ConstraintMakerExtendable.swift */; };
+		1DD68D771DBB261E001A9923 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D551DBB261E001A9923 /* ConstraintMakerFinalizable.swift */; };
+		1DD68D781DBB261E001A9923 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D561DBB261E001A9923 /* ConstraintMakerPriortizable.swift */; };
+		1DD68D791DBB261E001A9923 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D571DBB261E001A9923 /* ConstraintMakerRelatable.swift */; };
+		1DD68D7A1DBB261E001A9923 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D581DBB261E001A9923 /* ConstraintMultiplierTarget.swift */; };
+		1DD68D7B1DBB261E001A9923 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D591DBB261E001A9923 /* ConstraintOffsetTarget.swift */; };
+		1DD68D7C1DBB261E001A9923 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D5A1DBB261E001A9923 /* ConstraintPriorityTarget.swift */; };
+		1DD68D7D1DBB261E001A9923 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D5B1DBB261E001A9923 /* ConstraintRelatableTarget.swift */; };
+		1DD68D7E1DBB261E001A9923 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D5C1DBB261E001A9923 /* ConstraintRelation.swift */; };
+		1DD68D7F1DBB261E001A9923 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D5D1DBB261E001A9923 /* ConstraintView+Extensions.swift */; };
+		1DD68D801DBB261E001A9923 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D5E1DBB261E001A9923 /* ConstraintView.swift */; };
+		1DD68D811DBB261E001A9923 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D5F1DBB261E001A9923 /* ConstraintViewDSL.swift */; };
+		1DD68D821DBB261E001A9923 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D601DBB261E001A9923 /* Debugging.swift */; };
+		1DD68D831DBB261E001A9923 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DD68D611DBB261E001A9923 /* Info.plist */; };
+		1DD68D841DBB261E001A9923 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D621DBB261E001A9923 /* LayoutConstraint.swift */; };
+		1DD68D851DBB261E001A9923 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D631DBB261E001A9923 /* LayoutConstraintItem.swift */; };
+		1DD68D861DBB261E001A9923 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68D651DBB261E001A9923 /* UILayoutSupport+Extensions.swift */; };
+		1DD68DF61DBB30A1001A9923 /* PopTaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68DD01DBB30A1001A9923 /* PopTaskVC.m */; };
+		1DD68DF71DBB30A1001A9923 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68DD21DBB30A1001A9923 /* TestVC.m */; };
+		1DD68DF81DBB30A1001A9923 /* TestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DD68DD31DBB30A1001A9923 /* TestVC.xib */; };
+		1DD68DF91DBB30A1001A9923 /* TaskDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68DD61DBB30A1001A9923 /* TaskDetailModel.m */; };
+		1DD68DFA1DBB30A1001A9923 /* TaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68DD81DBB30A1001A9923 /* TaskModel.m */; };
+		1DD68DFC1DBB30A1001A9923 /* TaskDetailTableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68DDD1DBB30A1001A9923 /* TaskDetailTableManager.m */; };
+		1DD68DFD1DBB30A1001A9923 /* HomeBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68DE01DBB30A1001A9923 /* HomeBottomView.m */; };
+		1DD68DFE1DBB30A1001A9923 /* NewTaskDetailFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68DE21DBB30A1001A9923 /* NewTaskDetailFooter.m */; };
+		1DD68DFF1DBB30A1001A9923 /* PopTaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68DE41DBB30A1001A9923 /* PopTaskView.m */; };
+		1DD68E001DBB30A1001A9923 /* SEFilterControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68DE61DBB30A1001A9923 /* SEFilterControl.m */; };
+		1DD68E011DBB30A1001A9923 /* TaskDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68DE81DBB30A1001A9923 /* TaskDetailCell.m */; };
+		1DD68E021DBB30A1001A9923 /* TaskDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DD68DE91DBB30A1001A9923 /* TaskDetailCell.xib */; };
+		1DD68E031DBB30A1001A9923 /* TaskDetailFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68DEB1DBB30A1001A9923 /* TaskDetailFooter.m */; };
+		1DD68E041DBB30A1001A9923 /* TaskDetailHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68DED1DBB30A1001A9923 /* TaskDetailHeader.m */; };
+		1DD68E051DBB30A1001A9923 /* TaskDetailTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68DEF1DBB30A1001A9923 /* TaskDetailTable.m */; };
+		1DD68E061DBB30A1001A9923 /* TaskDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68DF11DBB30A1001A9923 /* TaskDetailView.m */; };
+		1DD68E071DBB30A1001A9923 /* TaskFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68DF31DBB30A1001A9923 /* TaskFilterView.m */; };
+		1DD68E081DBB30A1001A9923 /* TopCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68DF51DBB30A1001A9923 /* TopCellView.m */; };
+		1DD68E0A1DBB33D6001A9923 /* comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68E091DBB33D6001A9923 /* comment.swift */; };
+		1DD68E0D1DBB3460001A9923 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68E0C1DBB3460001A9923 /* UIView+Frame.m */; };
+		1DD68E101DBB3519001A9923 /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68E0F1DBB3519001A9923 /* UIColor+HEX.m */; };
+		1DD68E131DBB37C7001A9923 /* UIControl+ActionBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68E121DBB37C7001A9923 /* UIControl+ActionBlocks.m */; };
+		1DD68E1A1DBB395D001A9923 /* BaiDuMap_drawRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68E161DBB395D001A9923 /* BaiDuMap_drawRoute.m */; };
+		1DD68E1B1DBB395D001A9923 /* CollectAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68E181DBB395D001A9923 /* CollectAnnotation.m */; };
+		1DD68E201DBB3AB8001A9923 /* OverhaulTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68E1F1DBB3AB8001A9923 /* OverhaulTool.m */; };
+		1DD68E221DBB3CFE001A9923 /* Nav_Third_Party_Map2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68E211DBB3CFE001A9923 /* Nav_Third_Party_Map2.swift */; };
+		1DD68E241DBB3D55001A9923 /* PublicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68E231DBB3D55001A9923 /* PublicManager.swift */; };
+		1DD68E261DBB3D99001A9923 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68E251DBB3D99001A9923 /* BaseViewModel.swift */; };
+		1DD68E2D1DBB42E0001A9923 /* BUIControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68E2A1DBB42E0001A9923 /* BUIControl.m */; };
+		1DD68E2E1DBB42E0001A9923 /* BUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD68E2C1DBB42E0001A9923 /* BUIView.m */; };
+		1DD68E3B1DBB52A3001A9923 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68E341DBB52A3001A9923 /* BaiduMapAPI_Base.framework */; };
+		1DD68E3C1DBB52A3001A9923 /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68E351DBB52A3001A9923 /* BaiduMapAPI_Cloud.framework */; };
+		1DD68E3D1DBB52A3001A9923 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68E361DBB52A3001A9923 /* BaiduMapAPI_Location.framework */; };
+		1DD68E3E1DBB52A3001A9923 /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68E371DBB52A3001A9923 /* BaiduMapAPI_Map.framework */; };
+		1DD68E3F1DBB52A3001A9923 /* BaiduMapAPI_Radar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68E381DBB52A3001A9923 /* BaiduMapAPI_Radar.framework */; };
+		1DD68E401DBB52A3001A9923 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68E391DBB52A3001A9923 /* BaiduMapAPI_Search.framework */; };
+		1DD68E411DBB52A3001A9923 /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68E3A1DBB52A3001A9923 /* BaiduMapAPI_Utils.framework */; };
+		1DD68E441DBB5313001A9923 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DD68E431DBB5313001A9923 /* mapapi.bundle */; };
+		1DD68E461DBB56E3001A9923 /* mapdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DD68E451DBB56E3001A9923 /* mapdata.plist */; };
+		1DD68E8A1DBB72B5001A9923 /* baiduNaviSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DD68E581DBB72B5001A9923 /* baiduNaviSDK.bundle */; };
+		1DD68E8B1DBB72B5001A9923 /* libBaiduMobStatForSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68E5C1DBB72B5001A9923 /* libBaiduMobStatForSDK.a */; };
+		1DD68E8C1DBB72B5001A9923 /* libbaiduNaviSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD68E5D1DBB72B5001A9923 /* libbaiduNaviSDK.a */; };
+		1DD68E9B1DBB72B5001A9923 /* updatelog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1DD68E891DBB72B5001A9923 /* updatelog.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D35E4021DB9AA1800454C5D /* RushRepairDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RushRepairDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D35E4061DB9AA1800454C5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D35E4081DB9AA1800454C5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1D35E4091DB9AA1800454C5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D35E4091DB9AA1800454C5D /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		1D35E4111DB9AA1800454C5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D35E4141DB9AA1800454C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D35E4161DB9AA1800454C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -641,6 +742,145 @@
 		1D35E6D01DB9FA1A00454C5D /* WXSTransitionProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSTransitionProperty.h; sourceTree = "<group>"; };
 		1D35E6D11DB9FA1A00454C5D /* WXSTransitionProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSTransitionProperty.m; sourceTree = "<group>"; };
 		1D35E6D21DB9FA1A00454C5D /* WXSTypedefConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSTypedefConfig.h; sourceTree = "<group>"; };
+		1DD68CC41DBB1331001A9923 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		1DD68CC61DBB1344001A9923 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1DD68CC81DBB1353001A9923 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		1DD68CCA1DBB135E001A9923 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1DD68CCC1DBB1364001A9923 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1DD68CCE1DBB1372001A9923 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1DD68CD01DBB137A001A9923 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1DD68CD21DBB138C001A9923 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1DD68CD41DBB1394001A9923 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1DD68CD61DBB139C001A9923 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1DD68CD81DBB13AA001A9923 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		1DD68CDA1DBB13B7001A9923 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1DD68CDC1DBB13C5001A9923 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1DD68CDE1DBB13D2001A9923 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1DD68CE01DBB13E3001A9923 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1DD68CE21DBB13F5001A9923 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		1DD68CE41DBB1455001A9923 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1DD68CE61DBB1464001A9923 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1DD68CEA1DBB22C4001A9923 /* TempTaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempTaskModel.swift; sourceTree = "<group>"; };
+		1DD68CED1DBB22C4001A9923 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1DD68CEF1DBB22C4001A9923 /* MapTaskViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTaskViewData.swift; sourceTree = "<group>"; };
+		1DD68CF31DBB22C4001A9923 /* Map_bottom_detailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map_bottom_detailView.swift; sourceTree = "<group>"; };
+		1DD68CF41DBB22C4001A9923 /* Map_top_detailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map_top_detailView.swift; sourceTree = "<group>"; };
+		1DD68CFA1DBB23FB001A9923 /* BaesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaesViewController.swift; sourceTree = "<group>"; };
+		1DD68CFB1DBB23FB001A9923 /* Base_BaiDuMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base_BaiDuMap.swift; sourceTree = "<group>"; };
+		1DD68D441DBB261E001A9923 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		1DD68D451DBB261E001A9923 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		1DD68D461DBB261E001A9923 /* ConstraintConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConfig.swift; sourceTree = "<group>"; };
+		1DD68D471DBB261E001A9923 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		1DD68D481DBB261E001A9923 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		1DD68D491DBB261E001A9923 /* ConstraintDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDSL.swift; sourceTree = "<group>"; };
+		1DD68D4A1DBB261E001A9923 /* ConstraintInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsets.swift; sourceTree = "<group>"; };
+		1DD68D4B1DBB261E001A9923 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		1DD68D4C1DBB261E001A9923 /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		1DD68D4D1DBB261E001A9923 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		1DD68D4E1DBB261E001A9923 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		1DD68D4F1DBB261E001A9923 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		1DD68D501DBB261E001A9923 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		1DD68D511DBB261E001A9923 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		1DD68D521DBB261E001A9923 /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		1DD68D531DBB261E001A9923 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		1DD68D541DBB261E001A9923 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		1DD68D551DBB261E001A9923 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		1DD68D561DBB261E001A9923 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		1DD68D571DBB261E001A9923 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		1DD68D581DBB261E001A9923 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		1DD68D591DBB261E001A9923 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		1DD68D5A1DBB261E001A9923 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		1DD68D5B1DBB261E001A9923 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		1DD68D5C1DBB261E001A9923 /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		1DD68D5D1DBB261E001A9923 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		1DD68D5E1DBB261E001A9923 /* ConstraintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintView.swift; sourceTree = "<group>"; };
+		1DD68D5F1DBB261E001A9923 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		1DD68D601DBB261E001A9923 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		1DD68D611DBB261E001A9923 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD68D621DBB261E001A9923 /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		1DD68D631DBB261E001A9923 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		1DD68D641DBB261E001A9923 /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
+		1DD68D651DBB261E001A9923 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		1DD68D871DBB26BD001A9923 /* RushRepairDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RushRepairDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		1DD68DCF1DBB30A1001A9923 /* PopTaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTaskVC.h; sourceTree = "<group>"; };
+		1DD68DD01DBB30A1001A9923 /* PopTaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTaskVC.m; sourceTree = "<group>"; };
+		1DD68DD11DBB30A1001A9923 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		1DD68DD21DBB30A1001A9923 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		1DD68DD31DBB30A1001A9923 /* TestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestVC.xib; sourceTree = "<group>"; };
+		1DD68DD51DBB30A1001A9923 /* TaskDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailModel.h; sourceTree = "<group>"; };
+		1DD68DD61DBB30A1001A9923 /* TaskDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailModel.m; sourceTree = "<group>"; };
+		1DD68DD71DBB30A1001A9923 /* TaskModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskModel.h; sourceTree = "<group>"; };
+		1DD68DD81DBB30A1001A9923 /* TaskModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskModel.m; sourceTree = "<group>"; };
+		1DD68DDC1DBB30A1001A9923 /* TaskDetailTableManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailTableManager.h; sourceTree = "<group>"; };
+		1DD68DDD1DBB30A1001A9923 /* TaskDetailTableManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailTableManager.m; sourceTree = "<group>"; };
+		1DD68DDF1DBB30A1001A9923 /* HomeBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeBottomView.h; sourceTree = "<group>"; };
+		1DD68DE01DBB30A1001A9923 /* HomeBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeBottomView.m; sourceTree = "<group>"; };
+		1DD68DE11DBB30A1001A9923 /* NewTaskDetailFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTaskDetailFooter.h; sourceTree = "<group>"; };
+		1DD68DE21DBB30A1001A9923 /* NewTaskDetailFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTaskDetailFooter.m; sourceTree = "<group>"; };
+		1DD68DE31DBB30A1001A9923 /* PopTaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTaskView.h; sourceTree = "<group>"; };
+		1DD68DE41DBB30A1001A9923 /* PopTaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTaskView.m; sourceTree = "<group>"; };
+		1DD68DE51DBB30A1001A9923 /* SEFilterControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEFilterControl.h; sourceTree = "<group>"; };
+		1DD68DE61DBB30A1001A9923 /* SEFilterControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEFilterControl.m; sourceTree = "<group>"; };
+		1DD68DE71DBB30A1001A9923 /* TaskDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailCell.h; sourceTree = "<group>"; };
+		1DD68DE81DBB30A1001A9923 /* TaskDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailCell.m; sourceTree = "<group>"; };
+		1DD68DE91DBB30A1001A9923 /* TaskDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskDetailCell.xib; sourceTree = "<group>"; };
+		1DD68DEA1DBB30A1001A9923 /* TaskDetailFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailFooter.h; sourceTree = "<group>"; };
+		1DD68DEB1DBB30A1001A9923 /* TaskDetailFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailFooter.m; sourceTree = "<group>"; };
+		1DD68DEC1DBB30A1001A9923 /* TaskDetailHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailHeader.h; sourceTree = "<group>"; };
+		1DD68DED1DBB30A1001A9923 /* TaskDetailHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailHeader.m; sourceTree = "<group>"; };
+		1DD68DEE1DBB30A1001A9923 /* TaskDetailTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailTable.h; sourceTree = "<group>"; };
+		1DD68DEF1DBB30A1001A9923 /* TaskDetailTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailTable.m; sourceTree = "<group>"; };
+		1DD68DF01DBB30A1001A9923 /* TaskDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailView.h; sourceTree = "<group>"; };
+		1DD68DF11DBB30A1001A9923 /* TaskDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailView.m; sourceTree = "<group>"; };
+		1DD68DF21DBB30A1001A9923 /* TaskFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskFilterView.h; sourceTree = "<group>"; };
+		1DD68DF31DBB30A1001A9923 /* TaskFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskFilterView.m; sourceTree = "<group>"; };
+		1DD68DF41DBB30A1001A9923 /* TopCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopCellView.h; sourceTree = "<group>"; };
+		1DD68DF51DBB30A1001A9923 /* TopCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopCellView.m; sourceTree = "<group>"; };
+		1DD68E091DBB33D6001A9923 /* comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = comment.swift; sourceTree = "<group>"; };
+		1DD68E0B1DBB3460001A9923 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		1DD68E0C1DBB3460001A9923 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		1DD68E0E1DBB3519001A9923 /* UIColor+HEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
+		1DD68E0F1DBB3519001A9923 /* UIColor+HEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEX.m"; sourceTree = "<group>"; };
+		1DD68E111DBB37C7001A9923 /* UIControl+ActionBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ActionBlocks.h"; sourceTree = "<group>"; };
+		1DD68E121DBB37C7001A9923 /* UIControl+ActionBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ActionBlocks.m"; sourceTree = "<group>"; };
+		1DD68E151DBB395D001A9923 /* BaiDuMap_drawRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiDuMap_drawRoute.h; sourceTree = "<group>"; };
+		1DD68E161DBB395D001A9923 /* BaiDuMap_drawRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiDuMap_drawRoute.m; sourceTree = "<group>"; };
+		1DD68E171DBB395D001A9923 /* CollectAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectAnnotation.h; sourceTree = "<group>"; };
+		1DD68E181DBB395D001A9923 /* CollectAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectAnnotation.m; sourceTree = "<group>"; };
+		1DD68E1E1DBB3AB8001A9923 /* OverhaulTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverhaulTool.h; sourceTree = "<group>"; };
+		1DD68E1F1DBB3AB8001A9923 /* OverhaulTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverhaulTool.m; sourceTree = "<group>"; };
+		1DD68E211DBB3CFE001A9923 /* Nav_Third_Party_Map2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nav_Third_Party_Map2.swift; sourceTree = "<group>"; };
+		1DD68E231DBB3D55001A9923 /* PublicManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicManager.swift; sourceTree = "<group>"; };
+		1DD68E251DBB3D99001A9923 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		1DD68E281DBB42E0001A9923 /* BlockUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockUI.h; sourceTree = "<group>"; };
+		1DD68E291DBB42E0001A9923 /* BUIControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUIControl.h; sourceTree = "<group>"; };
+		1DD68E2A1DBB42E0001A9923 /* BUIControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUIControl.m; sourceTree = "<group>"; };
+		1DD68E2B1DBB42E0001A9923 /* BUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUIView.h; sourceTree = "<group>"; };
+		1DD68E2C1DBB42E0001A9923 /* BUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUIView.m; sourceTree = "<group>"; };
+		1DD68E341DBB52A3001A9923 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		1DD68E351DBB52A3001A9923 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		1DD68E361DBB52A3001A9923 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
+		1DD68E371DBB52A3001A9923 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		1DD68E381DBB52A3001A9923 /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
+		1DD68E391DBB52A3001A9923 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		1DD68E3A1DBB52A3001A9923 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		1DD68E431DBB5313001A9923 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
+		1DD68E451DBB56E3001A9923 /* mapdata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mapdata.plist; sourceTree = "<group>"; };
+		1DD68E581DBB72B5001A9923 /* baiduNaviSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = baiduNaviSDK.bundle; sourceTree = "<group>"; };
+		1DD68E5A1DBB72B5001A9923 /* BaiduMobStat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobStat.h; sourceTree = "<group>"; };
+		1DD68E5B1DBB72B5001A9923 /* BaiduMobStatForSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobStatForSDK.h; sourceTree = "<group>"; };
+		1DD68E5C1DBB72B5001A9923 /* libBaiduMobStatForSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStatForSDK.a; sourceTree = "<group>"; };
+		1DD68E5D1DBB72B5001A9923 /* libbaiduNaviSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbaiduNaviSDK.a; sourceTree = "<group>"; };
+		1DD68E801DBB72B5001A9923 /* BNCommonDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCommonDef.h; sourceTree = "<group>"; };
+		1DD68E811DBB72B5001A9923 /* BNCoreServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCoreServices.h; sourceTree = "<group>"; };
+		1DD68E821DBB72B5001A9923 /* BNLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLocation.h; sourceTree = "<group>"; };
+		1DD68E831DBB72B5001A9923 /* BNLocationManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLocationManagerProtocol.h; sourceTree = "<group>"; };
+		1DD68E841DBB72B5001A9923 /* BNRoutePlanManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRoutePlanManagerProtocol.h; sourceTree = "<group>"; };
+		1DD68E851DBB72B5001A9923 /* BNRoutePlanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRoutePlanModel.h; sourceTree = "<group>"; };
+		1DD68E861DBB72B5001A9923 /* BNSoundEventProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNSoundEventProtocol.h; sourceTree = "<group>"; };
+		1DD68E871DBB72B5001A9923 /* BNStrategyManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNStrategyManagerProtocol.h; sourceTree = "<group>"; };
+		1DD68E881DBB72B5001A9923 /* BNUIManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNUIManagerProtocol.h; sourceTree = "<group>"; };
+		1DD68E891DBB72B5001A9923 /* updatelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = updatelog.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -648,10 +888,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD68CE71DBB1464001A9923 /* QuartzCore.framework in Frameworks */,
+				1DD68CE51DBB1455001A9923 /* MessageUI.framework in Frameworks */,
+				1D35E6361DB9B23300454C5D /* libsqlite3.0.tbd in Frameworks */,
+				1DD68CE31DBB13F5001A9923 /* libz.1.2.5.tbd in Frameworks */,
+				1DD68CE11DBB13E3001A9923 /* CoreGraphics.framework in Frameworks */,
+				1DD68CDF1DBB13D2001A9923 /* OpenGLES.framework in Frameworks */,
+				1DD68E3C1DBB52A3001A9923 /* BaiduMapAPI_Cloud.framework in Frameworks */,
+				1DD68CDD1DBB13C5001A9923 /* GLKit.framework in Frameworks */,
+				1DD68CDB1DBB13B7001A9923 /* AudioToolbox.framework in Frameworks */,
+				1DD68E3F1DBB52A3001A9923 /* BaiduMapAPI_Radar.framework in Frameworks */,
+				1DD68E8C1DBB72B5001A9923 /* libbaiduNaviSDK.a in Frameworks */,
+				1DD68CD91DBB13AA001A9923 /* ImageIO.framework in Frameworks */,
+				1DD68CD71DBB139C001A9923 /* CoreMotion.framework in Frameworks */,
+				1DD68CD51DBB1394001A9923 /* CoreLocation.framework in Frameworks */,
+				1DD68CD31DBB138C001A9923 /* CoreTelephony.framework in Frameworks */,
+				1DD68CD11DBB137A001A9923 /* MediaPlayer.framework in Frameworks */,
+				1DD68E8B1DBB72B5001A9923 /* libBaiduMobStatForSDK.a in Frameworks */,
+				1DD68E3E1DBB52A3001A9923 /* BaiduMapAPI_Map.framework in Frameworks */,
+				1DD68CCF1DBB1372001A9923 /* AVFoundation.framework in Frameworks */,
+				1DD68E3B1DBB52A3001A9923 /* BaiduMapAPI_Base.framework in Frameworks */,
+				1DD68CCD1DBB1364001A9923 /* SystemConfiguration.framework in Frameworks */,
+				1DD68E3D1DBB52A3001A9923 /* BaiduMapAPI_Location.framework in Frameworks */,
+				1DD68CCB1DBB135E001A9923 /* AdSupport.framework in Frameworks */,
+				1DD68CC91DBB1353001A9923 /* JavaScriptCore.framework in Frameworks */,
+				1DD68CC71DBB1344001A9923 /* Security.framework in Frameworks */,
+				1DD68E411DBB52A3001A9923 /* BaiduMapAPI_Utils.framework in Frameworks */,
+				1DD68CC51DBB1331001A9923 /* libstdc++.6.0.9.tbd in Frameworks */,
+				1DD68E401DBB52A3001A9923 /* BaiduMapAPI_Search.framework in Frameworks */,
 				1D35E63C1DB9B2AA00454C5D /* libc++.tbd in Frameworks */,
 				1D35E63A1DB9B29900454C5D /* libz.tbd in Frameworks */,
 				1D35E6381DB9B23C00454C5D /* libsqlite3.tbd in Frameworks */,
-				1D35E6361DB9B23300454C5D /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,8 +945,10 @@
 		1D35E4041DB9AA1800454C5D /* RushRepairDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1DD68E451DBB56E3001A9923 /* mapdata.plist */,
+				1DD68D871DBB26BD001A9923 /* RushRepairDemo-Bridging-Header.h */,
 				1D35E4081DB9AA1800454C5D /* AppDelegate.h */,
-				1D35E4091DB9AA1800454C5D /* AppDelegate.m */,
+				1D35E4091DB9AA1800454C5D /* AppDelegate.mm */,
 				1D35E65F1DB9C0DB00454C5D /* RushRepairDemo-Prefix.pch */,
 				1D35E4161DB9AA1800454C5D /* Info.plist */,
 				1D35E4111DB9AA1800454C5D /* Assets.xcassets */,
@@ -704,6 +973,9 @@
 		1D35E41C1DB9ACAA00454C5D /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				1DD68E251DBB3D99001A9923 /* BaseViewModel.swift */,
+				1DD68E231DBB3D55001A9923 /* PublicManager.swift */,
+				1DD68E091DBB33D6001A9923 /* comment.swift */,
 				1D35E63D1DB9B3E300454C5D /* AppConstant.h */,
 				1D35E63E1DB9B3E300454C5D /* Macros.h */,
 				1D35E63F1DB9B3E300454C5D /* GlobalDefine.h */,
@@ -716,6 +988,7 @@
 		1D35E41D1DB9ACAA00454C5D /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				1DD68E141DBB395D001A9923 /* MapManager */,
 				1D35E6601DB9C43700454C5D /* UIManager */,
 			);
 			path = Manager;
@@ -724,14 +997,18 @@
 		1D35E41E1DB9ACAA00454C5D /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
-				1D35E6B11DB9FA1A00454C5D /* WXSTransition */,
-				1D35E6791DB9EFD500454C5D /* MBProgressHUD */,
-				1D35E6511DB9C08400454C5D /* MMDrawerController */,
-				1D35E4251DB9B03A00454C5D /* YYKit */,
+				1DD68E571DBB72B5001A9923 /* BaiduNaviSDK */,
+				1DD68E331DBB52A3001A9923 /* BaiduMapSDK */,
+				1DD68E271DBB42E0001A9923 /* BlockUI */,
 				1D35E4D61DB9B03A00454C5D /* HYBHelperKitSources */,
 				1D35E5211DB9B03A00454C5D /* IQKeyboardManager */,
 				1D35E5461DB9B03A00454C5D /* Masonry */,
+				1D35E6791DB9EFD500454C5D /* MBProgressHUD */,
 				1D35E5641DB9B03A00454C5D /* MJRefresh */,
+				1D35E6511DB9C08400454C5D /* MMDrawerController */,
+				1DD68D421DBB261E001A9923 /* SnapKit */,
+				1D35E6B11DB9FA1A00454C5D /* WXSTransition */,
+				1D35E4251DB9B03A00454C5D /* YYKit */,
 			);
 			path = 3rd;
 			sourceTree = "<group>";
@@ -1350,10 +1627,28 @@
 		1D35E6341DB9B23300454C5D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1DD68CCA1DBB135E001A9923 /* AdSupport.framework */,
+				1DD68CDA1DBB13B7001A9923 /* AudioToolbox.framework */,
+				1DD68CCE1DBB1372001A9923 /* AVFoundation.framework */,
+				1DD68CE01DBB13E3001A9923 /* CoreGraphics.framework */,
+				1DD68CD41DBB1394001A9923 /* CoreLocation.framework */,
+				1DD68CD61DBB139C001A9923 /* CoreMotion.framework */,
+				1DD68CD21DBB138C001A9923 /* CoreTelephony.framework */,
+				1DD68CDC1DBB13C5001A9923 /* GLKit.framework */,
+				1DD68CD81DBB13AA001A9923 /* ImageIO.framework */,
+				1DD68CC81DBB1353001A9923 /* JavaScriptCore.framework */,
+				1DD68CD01DBB137A001A9923 /* MediaPlayer.framework */,
+				1DD68CE41DBB1455001A9923 /* MessageUI.framework */,
+				1DD68CDE1DBB13D2001A9923 /* OpenGLES.framework */,
+				1DD68CE61DBB1464001A9923 /* QuartzCore.framework */,
+				1DD68CC61DBB1344001A9923 /* Security.framework */,
+				1DD68CCC1DBB1364001A9923 /* SystemConfiguration.framework */,
 				1D35E63B1DB9B2AA00454C5D /* libc++.tbd */,
-				1D35E6391DB9B29900454C5D /* libz.tbd */,
-				1D35E6371DB9B23C00454C5D /* libsqlite3.tbd */,
 				1D35E6351DB9B23300454C5D /* libsqlite3.0.tbd */,
+				1D35E6371DB9B23C00454C5D /* libsqlite3.tbd */,
+				1DD68CC41DBB1331001A9923 /* libstdc++.6.0.9.tbd */,
+				1DD68CE21DBB13F5001A9923 /* libz.1.2.5.tbd */,
+				1D35E6391DB9B29900454C5D /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1376,8 +1671,14 @@
 				1D35E6471DB9B3E300454C5D /* CALayer+BorderColor.m */,
 				1D35E6481DB9B3E300454C5D /* NSString+Utils.h */,
 				1D35E6491DB9B3E300454C5D /* NSString+Utils.m */,
+				1DD68E0E1DBB3519001A9923 /* UIColor+HEX.h */,
+				1DD68E0F1DBB3519001A9923 /* UIColor+HEX.m */,
+				1DD68E111DBB37C7001A9923 /* UIControl+ActionBlocks.h */,
+				1DD68E121DBB37C7001A9923 /* UIControl+ActionBlocks.m */,
 				1D35E64A1DB9B3E300454C5D /* UITextView+Placeholder.h */,
 				1D35E64B1DB9B3E300454C5D /* UITextView+Placeholder.m */,
+				1DD68E0B1DBB3460001A9923 /* UIView+Frame.h */,
+				1DD68E0C1DBB3460001A9923 /* UIView+Frame.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1480,6 +1781,8 @@
 		1D35E6861DB9F15900454C5D /* RushRepair */ = {
 			isa = PBXGroup;
 			children = (
+				1DD68DCD1DBB30A1001A9923 /* Overhaul */,
+				1DD68CE81DBB22C4001A9923 /* MapView */,
 				1D35E69F1DB9F25400454C5D /* RRRushRepairViewController.h */,
 				1D35E6A01DB9F25400454C5D /* RRRushRepairViewController.m */,
 			);
@@ -1489,6 +1792,8 @@
 		1D35E6871DB9F18A00454C5D /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
+				1DD68CFA1DBB23FB001A9923 /* BaesViewController.swift */,
+				1DD68CFB1DBB23FB001A9923 /* Base_BaiDuMap.swift */,
 				1D35E6881DB9F19E00454C5D /* RRBaseViewController.h */,
 				1D35E6891DB9F19E00454C5D /* RRBaseViewController.m */,
 			);
@@ -1535,6 +1840,268 @@
 			path = WXSTransition;
 			sourceTree = "<group>";
 		};
+		1DD68CE81DBB22C4001A9923 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68CE91DBB22C4001A9923 /* Model */,
+				1DD68CEC1DBB22C4001A9923 /* ViewControllers */,
+				1DD68CEE1DBB22C4001A9923 /* ViewData */,
+				1DD68CF21DBB22C4001A9923 /* Views */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		1DD68CE91DBB22C4001A9923 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68CEA1DBB22C4001A9923 /* TempTaskModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1DD68CEC1DBB22C4001A9923 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68CED1DBB22C4001A9923 /* MapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1DD68CEE1DBB22C4001A9923 /* ViewData */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68CEF1DBB22C4001A9923 /* MapTaskViewData.swift */,
+			);
+			path = ViewData;
+			sourceTree = "<group>";
+		};
+		1DD68CF21DBB22C4001A9923 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68CF31DBB22C4001A9923 /* Map_bottom_detailView.swift */,
+				1DD68CF41DBB22C4001A9923 /* Map_top_detailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1DD68D421DBB261E001A9923 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68D431DBB261E001A9923 /* Source */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		1DD68D431DBB261E001A9923 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68D441DBB261E001A9923 /* Constraint.swift */,
+				1DD68D451DBB261E001A9923 /* ConstraintAttributes.swift */,
+				1DD68D461DBB261E001A9923 /* ConstraintConfig.swift */,
+				1DD68D471DBB261E001A9923 /* ConstraintConstantTarget.swift */,
+				1DD68D481DBB261E001A9923 /* ConstraintDescription.swift */,
+				1DD68D491DBB261E001A9923 /* ConstraintDSL.swift */,
+				1DD68D4A1DBB261E001A9923 /* ConstraintInsets.swift */,
+				1DD68D4B1DBB261E001A9923 /* ConstraintInsetTarget.swift */,
+				1DD68D4C1DBB261E001A9923 /* ConstraintItem.swift */,
+				1DD68D4D1DBB261E001A9923 /* ConstraintLayoutGuide+Extensions.swift */,
+				1DD68D4E1DBB261E001A9923 /* ConstraintLayoutGuide.swift */,
+				1DD68D4F1DBB261E001A9923 /* ConstraintLayoutGuideDSL.swift */,
+				1DD68D501DBB261E001A9923 /* ConstraintLayoutSupport.swift */,
+				1DD68D511DBB261E001A9923 /* ConstraintLayoutSupportDSL.swift */,
+				1DD68D521DBB261E001A9923 /* ConstraintMaker.swift */,
+				1DD68D531DBB261E001A9923 /* ConstraintMakerEditable.swift */,
+				1DD68D541DBB261E001A9923 /* ConstraintMakerExtendable.swift */,
+				1DD68D551DBB261E001A9923 /* ConstraintMakerFinalizable.swift */,
+				1DD68D561DBB261E001A9923 /* ConstraintMakerPriortizable.swift */,
+				1DD68D571DBB261E001A9923 /* ConstraintMakerRelatable.swift */,
+				1DD68D581DBB261E001A9923 /* ConstraintMultiplierTarget.swift */,
+				1DD68D591DBB261E001A9923 /* ConstraintOffsetTarget.swift */,
+				1DD68D5A1DBB261E001A9923 /* ConstraintPriorityTarget.swift */,
+				1DD68D5B1DBB261E001A9923 /* ConstraintRelatableTarget.swift */,
+				1DD68D5C1DBB261E001A9923 /* ConstraintRelation.swift */,
+				1DD68D5D1DBB261E001A9923 /* ConstraintView+Extensions.swift */,
+				1DD68D5E1DBB261E001A9923 /* ConstraintView.swift */,
+				1DD68D5F1DBB261E001A9923 /* ConstraintViewDSL.swift */,
+				1DD68D601DBB261E001A9923 /* Debugging.swift */,
+				1DD68D611DBB261E001A9923 /* Info.plist */,
+				1DD68D621DBB261E001A9923 /* LayoutConstraint.swift */,
+				1DD68D631DBB261E001A9923 /* LayoutConstraintItem.swift */,
+				1DD68D641DBB261E001A9923 /* SnapKit.h */,
+				1DD68D651DBB261E001A9923 /* UILayoutSupport+Extensions.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1DD68DCD1DBB30A1001A9923 /* Overhaul */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68E1D1DBB3AB8001A9923 /* Tool */,
+				1DD68DCE1DBB30A1001A9923 /* Controller */,
+				1DD68DD41DBB30A1001A9923 /* Model */,
+				1DD68DDB1DBB30A1001A9923 /* TableManager */,
+				1DD68DDE1DBB30A1001A9923 /* View */,
+			);
+			path = Overhaul;
+			sourceTree = "<group>";
+		};
+		1DD68DCE1DBB30A1001A9923 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68DCF1DBB30A1001A9923 /* PopTaskVC.h */,
+				1DD68DD01DBB30A1001A9923 /* PopTaskVC.m */,
+				1DD68DD11DBB30A1001A9923 /* TestVC.h */,
+				1DD68DD21DBB30A1001A9923 /* TestVC.m */,
+				1DD68DD31DBB30A1001A9923 /* TestVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1DD68DD41DBB30A1001A9923 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68DD51DBB30A1001A9923 /* TaskDetailModel.h */,
+				1DD68DD61DBB30A1001A9923 /* TaskDetailModel.m */,
+				1DD68DD71DBB30A1001A9923 /* TaskModel.h */,
+				1DD68DD81DBB30A1001A9923 /* TaskModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1DD68DDB1DBB30A1001A9923 /* TableManager */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68DDC1DBB30A1001A9923 /* TaskDetailTableManager.h */,
+				1DD68DDD1DBB30A1001A9923 /* TaskDetailTableManager.m */,
+			);
+			path = TableManager;
+			sourceTree = "<group>";
+		};
+		1DD68DDE1DBB30A1001A9923 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68DDF1DBB30A1001A9923 /* HomeBottomView.h */,
+				1DD68DE01DBB30A1001A9923 /* HomeBottomView.m */,
+				1DD68DE11DBB30A1001A9923 /* NewTaskDetailFooter.h */,
+				1DD68DE21DBB30A1001A9923 /* NewTaskDetailFooter.m */,
+				1DD68DE31DBB30A1001A9923 /* PopTaskView.h */,
+				1DD68DE41DBB30A1001A9923 /* PopTaskView.m */,
+				1DD68DE51DBB30A1001A9923 /* SEFilterControl.h */,
+				1DD68DE61DBB30A1001A9923 /* SEFilterControl.m */,
+				1DD68DE71DBB30A1001A9923 /* TaskDetailCell.h */,
+				1DD68DE81DBB30A1001A9923 /* TaskDetailCell.m */,
+				1DD68DE91DBB30A1001A9923 /* TaskDetailCell.xib */,
+				1DD68DEA1DBB30A1001A9923 /* TaskDetailFooter.h */,
+				1DD68DEB1DBB30A1001A9923 /* TaskDetailFooter.m */,
+				1DD68DEC1DBB30A1001A9923 /* TaskDetailHeader.h */,
+				1DD68DED1DBB30A1001A9923 /* TaskDetailHeader.m */,
+				1DD68DEE1DBB30A1001A9923 /* TaskDetailTable.h */,
+				1DD68DEF1DBB30A1001A9923 /* TaskDetailTable.m */,
+				1DD68DF01DBB30A1001A9923 /* TaskDetailView.h */,
+				1DD68DF11DBB30A1001A9923 /* TaskDetailView.m */,
+				1DD68DF21DBB30A1001A9923 /* TaskFilterView.h */,
+				1DD68DF31DBB30A1001A9923 /* TaskFilterView.m */,
+				1DD68DF41DBB30A1001A9923 /* TopCellView.h */,
+				1DD68DF51DBB30A1001A9923 /* TopCellView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1DD68E141DBB395D001A9923 /* MapManager */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68E211DBB3CFE001A9923 /* Nav_Third_Party_Map2.swift */,
+				1DD68E151DBB395D001A9923 /* BaiDuMap_drawRoute.h */,
+				1DD68E161DBB395D001A9923 /* BaiDuMap_drawRoute.m */,
+				1DD68E171DBB395D001A9923 /* CollectAnnotation.h */,
+				1DD68E181DBB395D001A9923 /* CollectAnnotation.m */,
+			);
+			path = MapManager;
+			sourceTree = "<group>";
+		};
+		1DD68E1D1DBB3AB8001A9923 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68E1E1DBB3AB8001A9923 /* OverhaulTool.h */,
+				1DD68E1F1DBB3AB8001A9923 /* OverhaulTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		1DD68E271DBB42E0001A9923 /* BlockUI */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68E281DBB42E0001A9923 /* BlockUI.h */,
+				1DD68E291DBB42E0001A9923 /* BUIControl.h */,
+				1DD68E2A1DBB42E0001A9923 /* BUIControl.m */,
+				1DD68E2B1DBB42E0001A9923 /* BUIView.h */,
+				1DD68E2C1DBB42E0001A9923 /* BUIView.m */,
+			);
+			path = BlockUI;
+			sourceTree = "<group>";
+		};
+		1DD68E331DBB52A3001A9923 /* BaiduMapSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68E421DBB5313001A9923 /* Resources */,
+				1DD68E341DBB52A3001A9923 /* BaiduMapAPI_Base.framework */,
+				1DD68E351DBB52A3001A9923 /* BaiduMapAPI_Cloud.framework */,
+				1DD68E361DBB52A3001A9923 /* BaiduMapAPI_Location.framework */,
+				1DD68E371DBB52A3001A9923 /* BaiduMapAPI_Map.framework */,
+				1DD68E381DBB52A3001A9923 /* BaiduMapAPI_Radar.framework */,
+				1DD68E391DBB52A3001A9923 /* BaiduMapAPI_Search.framework */,
+				1DD68E3A1DBB52A3001A9923 /* BaiduMapAPI_Utils.framework */,
+			);
+			path = BaiduMapSDK;
+			sourceTree = "<group>";
+		};
+		1DD68E421DBB5313001A9923 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68E431DBB5313001A9923 /* mapapi.bundle */,
+			);
+			name = Resources;
+			path = BaiduMapAPI_Map.framework/Resources;
+			sourceTree = "<group>";
+		};
+		1DD68E571DBB72B5001A9923 /* BaiduNaviSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68E581DBB72B5001A9923 /* baiduNaviSDK.bundle */,
+				1DD68E591DBB72B5001A9923 /* BaiduStatistics */,
+				1DD68E7F1DBB72B5001A9923 /* inc */,
+				1DD68E891DBB72B5001A9923 /* updatelog.txt */,
+			);
+			path = BaiduNaviSDK;
+			sourceTree = "<group>";
+		};
+		1DD68E591DBB72B5001A9923 /* BaiduStatistics */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68E5A1DBB72B5001A9923 /* BaiduMobStat.h */,
+				1DD68E5B1DBB72B5001A9923 /* BaiduMobStatForSDK.h */,
+				1DD68E5C1DBB72B5001A9923 /* libBaiduMobStatForSDK.a */,
+				1DD68E5D1DBB72B5001A9923 /* libbaiduNaviSDK.a */,
+			);
+			path = BaiduStatistics;
+			sourceTree = "<group>";
+		};
+		1DD68E7F1DBB72B5001A9923 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				1DD68E801DBB72B5001A9923 /* BNCommonDef.h */,
+				1DD68E811DBB72B5001A9923 /* BNCoreServices.h */,
+				1DD68E821DBB72B5001A9923 /* BNLocation.h */,
+				1DD68E831DBB72B5001A9923 /* BNLocationManagerProtocol.h */,
+				1DD68E841DBB72B5001A9923 /* BNRoutePlanManagerProtocol.h */,
+				1DD68E851DBB72B5001A9923 /* BNRoutePlanModel.h */,
+				1DD68E861DBB72B5001A9923 /* BNSoundEventProtocol.h */,
+				1DD68E871DBB72B5001A9923 /* BNStrategyManagerProtocol.h */,
+				1DD68E881DBB72B5001A9923 /* BNUIManagerProtocol.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1567,6 +2134,7 @@
 					1D35E4011DB9AA1800454C5D = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = FAT69R69RF;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1594,16 +2162,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD68E8A1DBB72B5001A9923 /* baiduNaviSDK.bundle in Resources */,
 				1D35E4151DB9AA1800454C5D /* LaunchScreen.storyboard in Resources */,
 				1D35E62D1DB9B03B00454C5D /* MJRefresh.bundle in Resources */,
+				1DD68E021DBB30A1001A9923 /* TaskDetailCell.xib in Resources */,
 				1D35E67F1DB9EFD500454C5D /* 37x-Checkmark@2x.png in Resources */,
 				1D35E6121DB9B03B00454C5D /* IQKeyboardManager.bundle in Resources */,
 				1D35E6781DB9EE8200454C5D /* RootViewController_5.5.xib in Resources */,
 				1D35E6771DB9EE8200454C5D /* RootViewController_4.xib in Resources */,
 				1D35E6131DB9B03B00454C5D /* Info.plist in Resources */,
 				1D35E6691DB9CFB300454C5D /* LeftMenuViewController.xib in Resources */,
+				1DD68E461DBB56E3001A9923 /* mapdata.plist in Resources */,
 				1D35E6761DB9EE8200454C5D /* RootViewController_4.7.xib in Resources */,
+				1DD68DF81DBB30A1001A9923 /* TestVC.xib in Resources */,
+				1DD68E441DBB5313001A9923 /* mapapi.bundle in Resources */,
 				1D35E4121DB9AA1800454C5D /* Assets.xcassets in Resources */,
+				1DD68D831DBB261E001A9923 /* Info.plist in Resources */,
+				1DD68E9B1DBB72B5001A9923 /* updatelog.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1614,11 +2189,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD68D7A1DBB261E001A9923 /* ConstraintMultiplierTarget.swift in Sources */,
 				1D35E5DD1DB9B03B00454C5D /* YYReachability.m in Sources */,
 				1D35E6631DB9C43700454C5D /* UIManager.m in Sources */,
+				1DD68D671DBB261E001A9923 /* ConstraintAttributes.swift in Sources */,
 				1D35E68E1DB9F1FA00454C5D /* RRHeadLineViewController.m in Sources */,
+				1DD68DFF1DBB30A1001A9923 /* PopTaskView.m in Sources */,
+				1DD68D781DBB261E001A9923 /* ConstraintMakerPriortizable.swift in Sources */,
+				1DD68CFD1DBB23FB001A9923 /* Base_BaiDuMap.swift in Sources */,
+				1DD68E0D1DBB3460001A9923 /* UIView+Frame.m in Sources */,
+				1DD68D6A1DBB261E001A9923 /* ConstraintDescription.swift in Sources */,
 				1D35E6241DB9B03B00454C5D /* MJRefreshAutoGifFooter.m in Sources */,
 				1D35E5941DB9B03B00454C5D /* NSBundle+YYAdd.m in Sources */,
+				1DD68CF81DBB22C4001A9923 /* Map_bottom_detailView.swift in Sources */,
 				1D35E6261DB9B03B00454C5D /* MJRefreshAutoStateFooter.m in Sources */,
 				1D35E5D71DB9B03B00454C5D /* YYTextView.m in Sources */,
 				1D35E5AB1DB9B03B00454C5D /* UIImage+YYAdd.m in Sources */,
@@ -1627,6 +2210,7 @@
 				1D35E5E61DB9B03B00454C5D /* HYBHelperKitBaseURLController.m in Sources */,
 				1D35E5FB1DB9B03B00454C5D /* UIButton+HYBHelperBlockKit.m in Sources */,
 				1D35E6931DB9F20D00454C5D /* RRScoreViewController.m in Sources */,
+				1DD68E241DBB3D55001A9923 /* PublicManager.swift in Sources */,
 				1D35E60D1DB9B03B00454C5D /* IQBarButtonItem.m in Sources */,
 				1D35E6D61DB9FA1A00454C5D /* WXSPercentDrivenInteractiveTransition.m in Sources */,
 				1D35E6141DB9B03B00454C5D /* MASCompositeConstraint.m in Sources */,
@@ -1636,9 +2220,11 @@
 				1D35E6201DB9B03B00454C5D /* MJRefreshBackFooter.m in Sources */,
 				1D35E6051DB9B03B00454C5D /* IQUIScrollView+Additions.m in Sources */,
 				1D35E6161DB9B03B00454C5D /* MASConstraintMaker.m in Sources */,
+				1DD68DFE1DBB30A1001A9923 /* NewTaskDetailFooter.m in Sources */,
 				1D35E61F1DB9B03B00454C5D /* MJRefreshAutoFooter.m in Sources */,
 				1D35E5B51DB9B03B00454C5D /* _YYWebImageSetter.m in Sources */,
 				1D35E6DA1DB9FA1A00454C5D /* WXSTransitionManager+FragmentAnimation.m in Sources */,
+				1DD68D741DBB261E001A9923 /* ConstraintMaker.swift in Sources */,
 				1D35E6171DB9B03B00454C5D /* MASLayoutConstraint.m in Sources */,
 				1D35E65E1DB9C08400454C5D /* UIViewController+MMDrawerController.m in Sources */,
 				1D35E60E1DB9B03B00454C5D /* IQPreviousNextView.m in Sources */,
@@ -1646,65 +2232,88 @@
 				1D35E6D31DB9FA1A00454C5D /* UINavigationController+WXSTransition.m in Sources */,
 				1D35E5A01DB9B03B00454C5D /* NSTimer+YYAdd.m in Sources */,
 				1D35E5B61DB9B03B00454C5D /* CALayer+YYWebImage.m in Sources */,
+				1DD68E131DBB37C7001A9923 /* UIControl+ActionBlocks.m in Sources */,
 				1D35E5E31DB9B03B00454C5D /* YYWeakProxy.m in Sources */,
 				1D35E5CA1DB9B03B00454C5D /* YYTextLine.m in Sources */,
 				1D35E6191DB9B03B00454C5D /* MASViewConstraint.m in Sources */,
 				1D35E5FC1DB9B03B00454C5D /* UIControl+HYBHelperBlockKit.m in Sources */,
 				1D35E62C1DB9B03B00454C5D /* MJRefreshStateHeader.m in Sources */,
 				1D35E6281DB9B03B00454C5D /* MJRefreshBackNormalFooter.m in Sources */,
+				1DD68E2E1DBB42E0001A9923 /* BUIView.m in Sources */,
 				1D35E5BA1DB9B03B00454C5D /* YYAnimatedImageView.m in Sources */,
+				1DD68E1A1DBB395D001A9923 /* BaiDuMap_drawRoute.m in Sources */,
 				1D35E6D71DB9FA1A00454C5D /* WXSTransitionManager+BoomAnimation.m in Sources */,
+				1DD68DF91DBB30A1001A9923 /* TaskDetailModel.m in Sources */,
 				1D35E5D81DB9B03B00454C5D /* YYAsyncLayer.m in Sources */,
+				1DD68E261DBB3D99001A9923 /* BaseViewModel.swift in Sources */,
 				1D35E6031DB9B03B00454C5D /* UIView+HYBHelperKitUIKit.m in Sources */,
 				1D35E6811DB9EFD500454C5D /* MBProgressHUD.m in Sources */,
 				1D35E60B1DB9B03B00454C5D /* IQKeyboardReturnKeyHandler.m in Sources */,
+				1DD68D801DBB261E001A9923 /* ConstraintView.swift in Sources */,
+				1DD68DF61DBB30A1001A9923 /* PopTaskVC.m in Sources */,
 				1D35E59B1DB9B03B00454C5D /* NSObject+YYAdd.m in Sources */,
 				1D35E5CE1DB9B03B00454C5D /* NSParagraphStyle+YYText.m in Sources */,
 				1D35E5961DB9B03B00454C5D /* NSDate+YYAdd.m in Sources */,
 				1D35E5A31DB9B03B00454C5D /* UIApplication+YYAdd.m in Sources */,
+				1DD68E0A1DBB33D6001A9923 /* comment.swift in Sources */,
 				1D35E5BD1DB9B03B00454C5D /* YYImageCache.m in Sources */,
 				1D35E6101DB9B03B00454C5D /* IQToolbar.m in Sources */,
 				1D35E5991DB9B03B00454C5D /* NSNotificationCenter+YYAdd.m in Sources */,
+				1DD68D701DBB261E001A9923 /* ConstraintLayoutGuide.swift in Sources */,
 				1D35E5DA1DB9B03B00454C5D /* YYFileHash.m in Sources */,
 				1D35E5D01DB9B03B00454C5D /* YYTextArchiver.m in Sources */,
 				1D35E5D21DB9B03B00454C5D /* YYTextParser.m in Sources */,
+				1DD68E1B1DBB395D001A9923 /* CollectAnnotation.m in Sources */,
 				1D35E5FD1DB9B03B00454C5D /* UIGestureRecognizer+HYBHelperBlockKit.m in Sources */,
 				1D35E64F1DB9B3E300454C5D /* NSString+Utils.m in Sources */,
 				1D35E6D91DB9FA1A00454C5D /* WXSTransitionManager+CoverAnimation.m in Sources */,
 				1D35E5931DB9B03B00454C5D /* NSArray+YYAdd.m in Sources */,
 				1D35E5A51DB9B03B00454C5D /* UIBezierPath+YYAdd.m in Sources */,
+				1DD68DF71DBB30A1001A9923 /* TestVC.m in Sources */,
 				1D35E5951DB9B03B00454C5D /* NSData+YYAdd.m in Sources */,
 				1D35E5E81DB9B03B00454C5D /* NSArray+HYBHelperKit.m in Sources */,
 				1D35E5BC1DB9B03B00454C5D /* YYImage.m in Sources */,
 				1D35E6E21DB9FA1A00454C5D /* WXSTransitionProperty.m in Sources */,
 				1D35E62A1DB9B03B00454C5D /* MJRefreshGifHeader.m in Sources */,
+				1DD68D731DBB261E001A9923 /* ConstraintLayoutSupportDSL.swift in Sources */,
 				1D35E5C81DB9B03B00454C5D /* YYTextKeyboardManager.m in Sources */,
 				1D35E61D1DB9B03B00454C5D /* ViewController+MASAdditions.m in Sources */,
 				1D35E5AC1DB9B03B00454C5D /* UIScreen+YYAdd.m in Sources */,
 				1D35E5BE1DB9B03B00454C5D /* YYImageCoder.m in Sources */,
 				1D35E5CF1DB9B03B00454C5D /* UIPasteboard+YYText.m in Sources */,
 				1D35E61C1DB9B03B00454C5D /* View+MASAdditions.m in Sources */,
+				1DD68D751DBB261E001A9923 /* ConstraintMakerEditable.swift in Sources */,
 				1D35E5E51DB9B03B00454C5D /* HYBHelperKitBaseController.m in Sources */,
 				1D35E5F01DB9B03B00454C5D /* NSString+HYBHelperKit.m in Sources */,
+				1DD68CF91DBB22C4001A9923 /* Map_top_detailView.swift in Sources */,
 				1D35E5B31DB9B03B00454C5D /* YYKVStorage.m in Sources */,
 				1D35E5A71DB9B03B00454C5D /* UIControl+YYAdd.m in Sources */,
 				1D35E61B1DB9B03B00454C5D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				1D35E6E11DB9FA1A00454C5D /* WXSTransitionManager.m in Sources */,
 				1D35E6041DB9B03B00454C5D /* IQNSArray+Sort.m in Sources */,
+				1DD68D841DBB261E001A9923 /* LayoutConstraint.swift in Sources */,
+				1DD68D7D1DBB261E001A9923 /* ConstraintRelatableTarget.swift in Sources */,
 				1D35E5EE1DB9B03B00454C5D /* NSNumber+HYBHelperKit.m in Sources */,
 				1D35E61A1DB9B03B00454C5D /* NSArray+MASAdditions.m in Sources */,
 				1D35E5C61DB9B03B00454C5D /* YYTextEffectWindow.m in Sources */,
 				1D35E5971DB9B03B00454C5D /* NSDictionary+YYAdd.m in Sources */,
 				1D35E5EA1DB9B03B00454C5D /* NSDictionary+HYBHelperKit.m in Sources */,
 				1D35E6DF1DB9FA1A00454C5D /* WXSTransitionManager+TypeTool.m in Sources */,
+				1DD68CF61DBB22C4001A9923 /* MapViewController.swift in Sources */,
+				1DD68D681DBB261E001A9923 /* ConstraintConfig.swift in Sources */,
 				1D35E6291DB9B03B00454C5D /* MJRefreshBackStateFooter.m in Sources */,
+				1DD68DFA1DBB30A1001A9923 /* TaskModel.m in Sources */,
 				1D35E6751DB9EE8200454C5D /* RootViewController.m in Sources */,
 				1D35E65C1DB9C08400454C5D /* MMDrawerController.m in Sources */,
 				1D35E6321DB9B03B00454C5D /* UIView+MJExtension.m in Sources */,
+				1DD68D821DBB261E001A9923 /* Debugging.swift in Sources */,
+				1DD68E051DBB30A1001A9923 /* TaskDetailTable.m in Sources */,
 				1D35E6DE1DB9FA1A00454C5D /* WXSTransitionManager+SystermAnimation.m in Sources */,
 				1D35E65B1DB9C08400454C5D /* MMDrawerBarButtonItem.m in Sources */,
 				1D35E5CC1DB9B03B00454C5D /* YYTextSelectionView.m in Sources */,
 				1D35E6DB1DB9FA1A00454C5D /* WXSTransitionManager+InsideThenPushAnimation.m in Sources */,
+				1DD68D811DBB261E001A9923 /* ConstraintViewDSL.swift in Sources */,
+				1DD68D6F1DBB261E001A9923 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
 				1D35E5F31DB9B03B00454C5D /* UICollectionView+HYBMaonsryKit.m in Sources */,
 				1D35E5D61DB9B03B00454C5D /* YYLabel.m in Sources */,
 				1D35E62F1DB9B03B00454C5D /* NSBundle+MJRefresh.m in Sources */,
@@ -1715,6 +2324,7 @@
 				1D35E5AE1DB9B03B00454C5D /* UITableView+YYAdd.m in Sources */,
 				1D35E5F51DB9B03B00454C5D /* UILabel+HYBMasonryKit.m in Sources */,
 				1D35E5B91DB9B03B00454C5D /* UIImageView+YYWebImage.m in Sources */,
+				1DD68E081DBB30A1001A9923 /* TopCellView.m in Sources */,
 				1D35E5DF1DB9B03B00454C5D /* YYThreadSafeArray.m in Sources */,
 				1D35E5E21DB9B03B00454C5D /* YYTransaction.m in Sources */,
 				1D35E64D1DB9B3E300454C5D /* ButtonIndexPath.m in Sources */,
@@ -1722,14 +2332,19 @@
 				1D35E6D41DB9FA1A00454C5D /* UIViewController+WXSTransition.m in Sources */,
 				1D35E6D51DB9FA1A00454C5D /* UIViewController+WXSTransitionProperty.m in Sources */,
 				1D35E59D1DB9B03B00454C5D /* NSObject+YYAddForKVO.m in Sources */,
-				1D35E40A1DB9AA1800454C5D /* AppDelegate.m in Sources */,
+				1DD68D861DBB261E001A9923 /* UILayoutSupport+Extensions.swift in Sources */,
+				1D35E40A1DB9AA1800454C5D /* AppDelegate.mm in Sources */,
 				1D35E6681DB9CFB300454C5D /* LeftMenuViewController.m in Sources */,
 				1D35E59F1DB9B03B00454C5D /* NSThread+YYAdd.m in Sources */,
+				1DD68D691DBB261E001A9923 /* ConstraintConstantTarget.swift in Sources */,
+				1DD68D6E1DBB261E001A9923 /* ConstraintItem.swift in Sources */,
 				1D35E6001DB9B03B00454C5D /* UIAlertView+HYBHelperKit.m in Sources */,
 				1D35E6801DB9EFD500454C5D /* MBProgressController.m in Sources */,
 				1D35E5DB1DB9B03B00454C5D /* YYGestureRecognizer.m in Sources */,
 				1D35E60C1DB9B03B00454C5D /* IQTextView.m in Sources */,
 				1D35E5EC1DB9B03B00454C5D /* NSMutableArray+HYBHelperKit.m in Sources */,
+				1DD68D6C1DBB261E001A9923 /* ConstraintInsets.swift in Sources */,
+				1DD68CF71DBB22C4001A9923 /* MapTaskViewData.swift in Sources */,
 				1D35E59A1DB9B03B00454C5D /* NSNumber+YYAdd.m in Sources */,
 				1D35E6081DB9B03B00454C5D /* IQUIViewController+Additions.m in Sources */,
 				1D35E5E11DB9B03B00454C5D /* YYTimer.m in Sources */,
@@ -1737,10 +2352,12 @@
 				1D35E5AA1DB9B03B00454C5D /* UIGestureRecognizer+YYAdd.m in Sources */,
 				1D35E5B21DB9B03B00454C5D /* YYDiskCache.m in Sources */,
 				1D35E5FF1DB9B03B00454C5D /* UIActionSheet+HYBHelperKit.m in Sources */,
+				1DD68D661DBB261E001A9923 /* Constraint.swift in Sources */,
 				1D35E64E1DB9B3E300454C5D /* CALayer+BorderColor.m in Sources */,
 				1D35E6501DB9B3E300454C5D /* UITextView+Placeholder.m in Sources */,
 				1D35E5D51DB9B03B00454C5D /* YYTextUtilities.m in Sources */,
 				1D35E5A81DB9B03B00454C5D /* UIDevice+YYAdd.m in Sources */,
+				1DD68D6B1DBB261E001A9923 /* ConstraintDSL.swift in Sources */,
 				1D35E5FE1DB9B03B00454C5D /* UIView+HYBHelperBlockKit.m in Sources */,
 				1D35E5DC1DB9B03B00454C5D /* YYKeychain.m in Sources */,
 				1D35E5981DB9B03B00454C5D /* NSKeyedUnarchiver+YYAdd.m in Sources */,
@@ -1749,15 +2366,22 @@
 				1D35E5EF1DB9B03B00454C5D /* NSObject+HYBHelperKit.m in Sources */,
 				1D35E5B71DB9B03B00454C5D /* MKAnnotationView+YYWebImage.m in Sources */,
 				1D35E5E01DB9B03B00454C5D /* YYThreadSafeDictionary.m in Sources */,
+				1DD68E2D1DBB42E0001A9923 /* BUIControl.m in Sources */,
+				1DD68D7E1DBB261E001A9923 /* ConstraintRelation.swift in Sources */,
 				1D35E6271DB9B03B00454C5D /* MJRefreshBackGifFooter.m in Sources */,
 				1D35E59C1DB9B03B00454C5D /* NSObject+YYAddForARC.m in Sources */,
 				1D35E5C41DB9B03B00454C5D /* YYTextContainerView.m in Sources */,
 				1D35E6181DB9B03B00454C5D /* MASViewAttribute.m in Sources */,
+				1DD68E041DBB30A1001A9923 /* TaskDetailHeader.m in Sources */,
 				1D35E6211DB9B03B00454C5D /* MJRefreshComponent.m in Sources */,
 				1D35E5DE1DB9B03B00454C5D /* YYSentinel.m in Sources */,
+				1DD68E001DBB30A1001A9923 /* SEFilterControl.m in Sources */,
+				1DD68D851DBB261E001A9923 /* LayoutConstraintItem.swift in Sources */,
 				1D35E68A1DB9F19E00454C5D /* RRBaseViewController.m in Sources */,
+				1DD68CF51DBB22C4001A9923 /* TempTaskModel.swift in Sources */,
 				1D35E5F41DB9B03B00454C5D /* UIImageView+HYBMasonryKit.m in Sources */,
 				1D35E5C21DB9B03B00454C5D /* NSObject+YYModel.m in Sources */,
+				1DD68CFC1DBB23FB001A9923 /* BaesViewController.swift in Sources */,
 				1D35E59E1DB9B03B00454C5D /* NSString+YYAdd.m in Sources */,
 				1D35E6231DB9B03B00454C5D /* MJRefreshHeader.m in Sources */,
 				1D35E6221DB9B03B00454C5D /* MJRefreshFooter.m in Sources */,
@@ -1767,9 +2391,13 @@
 				1D35E5C51DB9B03B00454C5D /* YYTextDebugOption.m in Sources */,
 				1D35E64C1DB9B3E300454C5D /* Common.m in Sources */,
 				1D35E65D1DB9C08400454C5D /* MMDrawerVisualState.m in Sources */,
+				1DD68D761DBB261E001A9923 /* ConstraintMakerExtendable.swift in Sources */,
 				1D35E5FA1DB9B03B00454C5D /* UIWebView+HYBMasonryKit.m in Sources */,
+				1DD68E061DBB30A1001A9923 /* TaskDetailView.m in Sources */,
 				1D35E5B81DB9B03B00454C5D /* UIButton+YYWebImage.m in Sources */,
+				1DD68E031DBB30A1001A9923 /* TaskDetailFooter.m in Sources */,
 				1D35E5CD1DB9B03B00454C5D /* NSAttributedString+YYText.m in Sources */,
+				1DD68D711DBB261E001A9923 /* ConstraintLayoutGuideDSL.swift in Sources */,
 				1D35E6151DB9B03B00454C5D /* MASConstraint.m in Sources */,
 				1D35E5A61DB9B03B00454C5D /* UIColor+YYAdd.m in Sources */,
 				1D35E5F11DB9B03B00454C5D /* NSTimer+HYBHelperKit.m in Sources */,
@@ -1783,30 +2411,44 @@
 				1D35E5AF1DB9B03B00454C5D /* UITextField+YYAdd.m in Sources */,
 				1D35E60F1DB9B03B00454C5D /* IQTitleBarButtonItem.m in Sources */,
 				1D35E6301DB9B03B00454C5D /* UIScrollView+MJExtension.m in Sources */,
+				1DD68DFC1DBB30A1001A9923 /* TaskDetailTableManager.m in Sources */,
 				1D35E5B41DB9B03B00454C5D /* YYMemoryCache.m in Sources */,
+				1DD68D721DBB261E001A9923 /* ConstraintLayoutSupport.swift in Sources */,
+				1DD68E101DBB3519001A9923 /* UIColor+HEX.m in Sources */,
+				1DD68E221DBB3CFE001A9923 /* Nav_Third_Party_Map2.swift in Sources */,
 				1D35E6E01DB9FA1A00454C5D /* WXSTransitionManager+ViewMoveAnimation.m in Sources */,
 				1D35E5A41DB9B03B00454C5D /* UIBarButtonItem+YYAdd.m in Sources */,
 				1D35E6DC1DB9FA1A00454C5D /* WXSTransitionManager+PageAnimation.m in Sources */,
 				1D35E5A21DB9B03B00454C5D /* YYCGUtilities.m in Sources */,
+				1DD68D7C1DBB261E001A9923 /* ConstraintPriorityTarget.swift in Sources */,
 				1D35E6DD1DB9FA1A00454C5D /* WXSTransitionManager+SpreadAnimation.m in Sources */,
 				1D35E5E41DB9B03B00454C5D /* HYBCommonKit.m in Sources */,
 				1D35E5C31DB9B03B00454C5D /* YYClassInfo.m in Sources */,
+				1DD68D7B1DBB261E001A9923 /* ConstraintOffsetTarget.swift in Sources */,
 				1D35E5D91DB9B03B00454C5D /* YYDispatchQueuePool.m in Sources */,
 				1D35E5F61DB9B03B00454C5D /* UIScrollView+HYBMasonryKit.m in Sources */,
 				1D35E6311DB9B03B00454C5D /* UIScrollView+MJRefresh.m in Sources */,
 				1D35E6061DB9B03B00454C5D /* IQUITextFieldView+Additions.m in Sources */,
+				1DD68D6D1DBB261E001A9923 /* ConstraintInsetTarget.swift in Sources */,
+				1DD68D791DBB261E001A9923 /* ConstraintMakerRelatable.swift in Sources */,
+				1DD68E011DBB30A1001A9923 /* TaskDetailCell.m in Sources */,
+				1DD68DFD1DBB30A1001A9923 /* HomeBottomView.m in Sources */,
+				1DD68D771DBB261E001A9923 /* ConstraintMakerFinalizable.swift in Sources */,
 				1D35E5BB1DB9B03B00454C5D /* YYFrameImage.m in Sources */,
 				1D35E5A11DB9B03B00454C5D /* CALayer+YYAdd.m in Sources */,
 				1D35E5F91DB9B03B00454C5D /* UIView+HYBMasonryKit.m in Sources */,
 				1D35E5AD1DB9B03B00454C5D /* UIScrollView+YYAdd.m in Sources */,
 				1D35E5F21DB9B03B00454C5D /* NSUserDefaults+HYBHelperKit.m in Sources */,
 				1D35E5C91DB9B03B00454C5D /* YYTextLayout.m in Sources */,
+				1DD68D7F1DBB261E001A9923 /* ConstraintView+Extensions.swift in Sources */,
 				1D35E5EB1DB9B03B00454C5D /* NSFileManager+HYBHelperKit.m in Sources */,
 				1D35E62B1DB9B03B00454C5D /* MJRefreshNormalHeader.m in Sources */,
 				1D35E60A1DB9B03B00454C5D /* IQKeyboardManager.m in Sources */,
 				1D35E5C71DB9B03B00454C5D /* YYTextInput.m in Sources */,
+				1DD68E201DBB3AB8001A9923 /* OverhaulTool.m in Sources */,
 				1D35E5D11DB9B03B00454C5D /* YYTextAttribute.m in Sources */,
 				1D35E6D81DB9FA1A00454C5D /* WXSTransitionManager+BrickAnimation.m in Sources */,
+				1DD68E071DBB30A1001A9923 /* TaskFilterView.m in Sources */,
 				1D35E69D1DB9F23900454C5D /* RRSpecailViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1868,7 +2510,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -1900,6 +2544,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1908,7 +2553,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1918,14 +2565,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FAT69R69RF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RushRepairDemo/3rd/BaiduMapSDK",
+					"$(PROJECT_DIR)/RushRepairDemo/3rd/SnapKit",
+				);
 				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RushRepairDemo/RushRepairDemo-Prefix.pch";
 				INFOPLIST_FILE = RushRepairDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RushRepairDemo/3rd/BaiduNaviSDK",
+					"$(PROJECT_DIR)/RushRepairDemo/3rd/BaiduNaviSDK/BaiduStatistics",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobartisan.RushRepairDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1935,14 +2595,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FAT69R69RF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RushRepairDemo/3rd/BaiduMapSDK",
+					"$(PROJECT_DIR)/RushRepairDemo/3rd/SnapKit",
+				);
 				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RushRepairDemo/RushRepairDemo-Prefix.pch";
 				INFOPLIST_FILE = RushRepairDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RushRepairDemo/3rd/BaiduNaviSDK",
+					"$(PROJECT_DIR)/RushRepairDemo/3rd/BaiduNaviSDK/BaiduStatistics",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobartisan.RushRepairDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -1966,6 +2639,7 @@
 				1D35E41B1DB9AA1800454C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
