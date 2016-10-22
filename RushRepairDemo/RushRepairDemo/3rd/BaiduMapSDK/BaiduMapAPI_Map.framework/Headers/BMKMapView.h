@@ -556,7 +556,7 @@ typedef enum {
 
 /**
  *添加热力图
- *	@param	[BMKHeatMap*]	heatMap	热力图绘制和显示数据
+ *	@param	heatMap	heatMap	热力图绘制和显示数据
  */
 - (void)addHeatMap:(BMKHeatMap*)heatMap;
 

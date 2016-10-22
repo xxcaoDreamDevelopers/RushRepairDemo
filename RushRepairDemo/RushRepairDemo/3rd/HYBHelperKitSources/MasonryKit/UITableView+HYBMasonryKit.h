@@ -73,7 +73,8 @@
  *
  *	@param superView		The super view for table view.
  *	@param delegate     Delgate and dataSource.
- *	@param style  @see UITableViewStyle.
+ *	@param style = 0
+ *  @see UITableViewStyle.
  *	@param constraints	Make constraints for table view.
  *
  *	@return The table view instance.

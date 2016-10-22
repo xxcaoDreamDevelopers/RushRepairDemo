@@ -21,7 +21,8 @@
 @implementation BaiDuMap_drawRoute
 
 -(instancetype)initWithMap:(BMKMapView *)mapView {
-    if (self == [super init]) {
+    self = [super init];
+    if (self) {
         self._mapView = mapView;
     }
     return self;
@@ -85,8 +86,7 @@
         // 添加途经点
         if (plan.wayPoints) {
             for (BMKPlanNode* tempNode in plan.wayPoints) {
-                CollectAnnotation* item = [[CollectAnnotation alloc]init];
-                item = [[CollectAnnotation alloc]init];
+                CollectAnnotation *item = [[CollectAnnotation alloc]init];
                 item.coordinate = tempNode.pt;
                 item.type = 5;
                 item.title = tempNode.name;

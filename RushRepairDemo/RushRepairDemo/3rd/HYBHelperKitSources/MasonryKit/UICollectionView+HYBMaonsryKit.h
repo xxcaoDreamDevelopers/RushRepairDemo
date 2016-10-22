@@ -21,7 +21,8 @@
  *  super view.
  *
  *	@param delegate								Delegate and data source.
- *	@param isHorizontal						@see UICollectionViewScrollDirection
+ *	@param isHorizontal	=
+ *  @see UICollectionViewScrollDirection
  *	@param superView								The super view of collection view.
  *
  *	@return The instance of UICollectionView.
@@ -40,7 +41,7 @@
  *  super view.
  *
  *	@param delegate								Delegate and data source.
- *	@param isHorizontal						@see UICollectionViewScrollDirection
+ *	@param isHorizontal	=					@see UICollectionViewScrollDirection
  *	@param itemSize								The size of collection view cell.
  *	@param superView								The super view of collection view.
  *
@@ -61,7 +62,7 @@
  *  super view.
  *
  *	@param delegate								Delegate and data source.
- *	@param isHorizontal						@see UICollectionViewScrollDirection
+ *	@param isHorizontal	=					@see UICollectionViewScrollDirection
  *	@param itemSize								The size of collection view cell.
  *	@param minimumInteritemSpacing	The minunum interitem spacing.
  *	@param minimumLineSpacing			The mininum line spacing.
@@ -83,7 +84,7 @@
  *  set item size, delegate, data source, item spacing and line spacing and so on.
  *
  *	@param delegate								Delegate and data source.
- *	@param isHorizontal						@see UICollectionViewScrollDirection
+ *	@param isHorizontal =						@see UICollectionViewScrollDirection
  *	@param itemSize								The size of collection view cell.
  *	@param minimumInteritemSpacing	The minunum interitem spacing.
  *	@param minimumLineSpacing			The mininum line spacing.

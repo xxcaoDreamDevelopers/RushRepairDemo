@@ -56,7 +56,6 @@
 
 /**
  *  启动服务,同步方法,会导致阻塞
- *  @param SoundDelete  ［in］传入遵守BNSoundManagerProtocol的实例
  *  @return  启动结果
  */
 - (BOOL)startServices;

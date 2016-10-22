@@ -71,11 +71,6 @@
 -(int)getCurRoutePlanMode;
 
 /**
- *  reset the endPoint in navigaiton
- *
- *  @param node
- */
-/**
  *  在导航中重新设置终点
  *
  *  @param node 终点节点
