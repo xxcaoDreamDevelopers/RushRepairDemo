@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D196CFB1DBCD8BA005B545C /* mapdata_NanJing.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D196CFA1DBCD8BA005B545C /* mapdata_NanJing.plist */; };
 		1D35E4071DB9AA1800454C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E4061DB9AA1800454C5D /* main.m */; };
 		1D35E40A1DB9AA1800454C5D /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E4091DB9AA1800454C5D /* AppDelegate.mm */; };
 		1D35E4121DB9AA1800454C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D35E4111DB9AA1800454C5D /* Assets.xcassets */; };
@@ -343,6 +344,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D196CFA1DBCD8BA005B545C /* mapdata_NanJing.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mapdata_NanJing.plist; sourceTree = "<group>"; };
 		1D35E4021DB9AA1800454C5D /* RushRepairDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RushRepairDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D35E4061DB9AA1800454C5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D35E4081DB9AA1800454C5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1013,6 +1015,7 @@
 		1D35E4041DB9AA1800454C5D /* RushRepairDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1D196CFA1DBCD8BA005B545C /* mapdata_NanJing.plist */,
 				1DD68E451DBB56E3001A9923 /* mapdata.plist */,
 				1DD68D871DBB26BD001A9923 /* RushRepairDemo-Bridging-Header.h */,
 				1D35E4081DB9AA1800454C5D /* AppDelegate.h */,
@@ -2321,6 +2324,7 @@
 				1D3C2DBD1DBC60D0008F1BD4 /* AllPerformanceTableViewCell.xib in Resources */,
 				1D35E6761DB9EE8200454C5D /* RootViewController_4.7.xib in Resources */,
 				1D3C2DE31DBC6587008F1BD4 /* AdTableViewCell.xib in Resources */,
+				1D196CFB1DBCD8BA005B545C /* mapdata_NanJing.plist in Resources */,
 				1D3C2DC11DBC60D0008F1BD4 /* MonthPerformanceTableViewCell.xib in Resources */,
 				1DD1C5FD1DBB9A4D00325B9D /* Images.xcassets in Resources */,
 				1DD68DF81DBB30A1001A9923 /* TestVC.xib in Resources */,

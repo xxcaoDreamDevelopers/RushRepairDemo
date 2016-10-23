@@ -11,7 +11,7 @@ import UIKit
 class MapTaskViewData: NSObject {
     
     func configData() -> NSArray {
-        let path = Bundle.main.path(forResource: "mapdata.plist", ofType: nil)
+        let path = Bundle.main.path(forResource: "mapdata_NanJing.plist", ofType: nil)
         let dataArr = NSArray(contentsOfFile: path!)
         var firstArr = [Any]()
         for i in 0 ..< dataArr!.count {
