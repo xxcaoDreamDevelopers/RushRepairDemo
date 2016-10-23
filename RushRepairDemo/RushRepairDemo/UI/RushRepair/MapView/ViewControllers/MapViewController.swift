@@ -228,6 +228,10 @@ class MapViewController: Base_BaiDuMap, UIGestureRecognizerDelegate {
         location_btn.handle(UIControlEvents.touchUpInside) { (btn) in
             if self.p_user_location?.location.coordinate != nil {
                 self.mapView?.setCenter((self.p_user_location?.location.coordinate)!, animated: true)
+            } else {
+                //开启定位
+                self.baiDu_map_location()
+                self.changeUserIcon(icon: self.user_icon)
             }
         }
         location_btn.snp.makeConstraints { (make) in

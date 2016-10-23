@@ -69,7 +69,8 @@ class Base_BaiDuMap: BaesViewController, BMKMapViewDelegate, BMKLocationServiceD
     
     //地图初始化完毕时会调用此接口
     func mapViewDidFinishLoading(_ mapView: BMKMapView!) {
-        baiDu_map_location()
+        //初始化暂不定位
+//        baiDu_map_location()
         changeUserIcon(icon: user_icon)
     }
     //地图状态改变完成后会调用此接口

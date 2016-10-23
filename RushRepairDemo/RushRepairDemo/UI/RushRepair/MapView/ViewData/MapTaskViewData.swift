@@ -34,14 +34,4 @@ class MapTaskViewData: NSObject {
     }
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }
