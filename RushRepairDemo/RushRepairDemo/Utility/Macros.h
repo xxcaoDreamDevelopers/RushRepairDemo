@@ -85,6 +85,7 @@
 #define setViewCornerAndBorder(view,radius)   {view.layer.cornerRadius = radius; view.layer.masksToBounds = YES; view.layer.borderWidth = (minLineWidth); view.layer.borderColor = ColorRGB(46, 201, 202).CGColor;}
 
 //设置颜色
+#define ColorHEX(hexString)          [UIColor colorWithHexString:hexString]
 #define ColorRGBA(R,G,B,A)           [UIColor colorWithRed:R / 255.0 green:G / 255.0  blue:B / 255.0  alpha:A]
 #define ColorRGB(R,G,B)              [UIColor colorWithRed:R / 255.0 green:G / 255.0  blue:B / 255.0  alpha:1.0]
 

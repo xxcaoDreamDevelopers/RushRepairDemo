@@ -193,8 +193,6 @@
 		1D35E6801DB9EFD500454C5D /* MBProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E67C1DB9EFD500454C5D /* MBProgressController.m */; };
 		1D35E6811DB9EFD500454C5D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E67E1DB9EFD500454C5D /* MBProgressHUD.m */; };
 		1D35E68A1DB9F19E00454C5D /* RRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E6891DB9F19E00454C5D /* RRBaseViewController.m */; };
-		1D35E68E1DB9F1FA00454C5D /* RRHeadLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E68C1DB9F1FA00454C5D /* RRHeadLineViewController.m */; };
-		1D35E6931DB9F20D00454C5D /* RRScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E6911DB9F20D00454C5D /* RRScoreViewController.m */; };
 		1D35E6981DB9F22100454C5D /* RRNormalViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E6961DB9F22100454C5D /* RRNormalViewViewController.m */; };
 		1D35E69D1DB9F23900454C5D /* RRSpecailViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E69B1DB9F23900454C5D /* RRSpecailViewViewController.m */; };
 		1D35E6A21DB9F25400454C5D /* RRRushRepairViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E6A01DB9F25400454C5D /* RRRushRepairViewController.m */; };
@@ -214,6 +212,28 @@
 		1D35E6E01DB9FA1A00454C5D /* WXSTransitionManager+ViewMoveAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E6CD1DB9FA1A00454C5D /* WXSTransitionManager+ViewMoveAnimation.m */; };
 		1D35E6E11DB9FA1A00454C5D /* WXSTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E6CF1DB9FA1A00454C5D /* WXSTransitionManager.m */; };
 		1D35E6E21DB9FA1A00454C5D /* WXSTransitionProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D35E6D11DB9FA1A00454C5D /* WXSTransitionProperty.m */; };
+		1D3C2DBB1DBC60CF008F1BD4 /* RRScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DA41DBC60CF008F1BD4 /* RRScoreViewController.m */; };
+		1D3C2DBC1DBC60CF008F1BD4 /* AllPerformanceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DA71DBC60CF008F1BD4 /* AllPerformanceTableViewCell.m */; };
+		1D3C2DBD1DBC60D0008F1BD4 /* AllPerformanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D3C2DA81DBC60CF008F1BD4 /* AllPerformanceTableViewCell.xib */; };
+		1D3C2DBE1DBC60D0008F1BD4 /* AllPerformanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DAA1DBC60CF008F1BD4 /* AllPerformanceView.m */; };
+		1D3C2DBF1DBC60D0008F1BD4 /* ComplaintRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DAC1DBC60CF008F1BD4 /* ComplaintRateView.m */; };
+		1D3C2DC01DBC60D0008F1BD4 /* MonthPerformanceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DAE1DBC60CF008F1BD4 /* MonthPerformanceTableViewCell.m */; };
+		1D3C2DC11DBC60D0008F1BD4 /* MonthPerformanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D3C2DAF1DBC60CF008F1BD4 /* MonthPerformanceTableViewCell.xib */; };
+		1D3C2DC21DBC60D0008F1BD4 /* PerformanceDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DB11DBC60CF008F1BD4 /* PerformanceDetailTableViewCell.m */; };
+		1D3C2DC31DBC60D0008F1BD4 /* PerformanceDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D3C2DB21DBC60CF008F1BD4 /* PerformanceDetailTableViewCell.xib */; };
+		1D3C2DC41DBC60D0008F1BD4 /* PerformanceRushTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DB41DBC60CF008F1BD4 /* PerformanceRushTableViewCell.m */; };
+		1D3C2DC51DBC60D0008F1BD4 /* PerformanceRushTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D3C2DB51DBC60CF008F1BD4 /* PerformanceRushTableViewCell.xib */; };
+		1D3C2DC61DBC60D0008F1BD4 /* PractiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DB71DBC60CF008F1BD4 /* PractiseView.m */; };
+		1D3C2DC71DBC60D0008F1BD4 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DB91DBC60CF008F1BD4 /* TestView.m */; };
+		1D3C2DD51DBC614E008F1BD4 /* DVLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DCA1DBC614E008F1BD4 /* DVLineChartView.m */; };
+		1D3C2DD61DBC614E008F1BD4 /* DVPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DCC1DBC614E008F1BD4 /* DVPlot.m */; };
+		1D3C2DD71DBC614E008F1BD4 /* DVXAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DCE1DBC614E008F1BD4 /* DVXAxisView.m */; };
+		1D3C2DD81DBC614E008F1BD4 /* DVYAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DD01DBC614E008F1BD4 /* DVYAxisView.m */; };
+		1D3C2DD91DBC614E008F1BD4 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DD21DBC614E008F1BD4 /* UIColor+Hex.m */; };
+		1D3C2DDA1DBC614E008F1BD4 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DD41DBC614E008F1BD4 /* UIView+Extension.m */; };
+		1D3C2DE11DBC6587008F1BD4 /* RRHeadLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DDB1DBC6587008F1BD4 /* RRHeadLineViewController.m */; };
+		1D3C2DE21DBC6587008F1BD4 /* AdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DDE1DBC6587008F1BD4 /* AdTableViewCell.m */; };
+		1D3C2DE31DBC6587008F1BD4 /* AdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D3C2DDF1DBC6587008F1BD4 /* AdTableViewCell.xib */; };
 		1DD1C5F81DBB993000325B9D /* TYLaunchBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1C5F11DBB993000325B9D /* TYLaunchBaseAnimation.m */; };
 		1DD1C5F91DBB993000325B9D /* TYLaunchFadeScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1C5F31DBB993000325B9D /* TYLaunchFadeScaleAnimation.m */; };
 		1DD1C5FA1DBB993000325B9D /* UIImage+TYLaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1C5F51DBB993000325B9D /* UIImage+TYLaunchImage.m */; };
@@ -702,10 +722,6 @@
 		1D35E67E1DB9EFD500454C5D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		1D35E6881DB9F19E00454C5D /* RRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRBaseViewController.h; sourceTree = "<group>"; };
 		1D35E6891DB9F19E00454C5D /* RRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRBaseViewController.m; sourceTree = "<group>"; };
-		1D35E68B1DB9F1FA00454C5D /* RRHeadLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRHeadLineViewController.h; sourceTree = "<group>"; };
-		1D35E68C1DB9F1FA00454C5D /* RRHeadLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRHeadLineViewController.m; sourceTree = "<group>"; };
-		1D35E6901DB9F20D00454C5D /* RRScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRScoreViewController.h; sourceTree = "<group>"; };
-		1D35E6911DB9F20D00454C5D /* RRScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRScoreViewController.m; sourceTree = "<group>"; };
 		1D35E6951DB9F22100454C5D /* RRNormalViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRNormalViewViewController.h; sourceTree = "<group>"; };
 		1D35E6961DB9F22100454C5D /* RRNormalViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRNormalViewViewController.m; sourceTree = "<group>"; };
 		1D35E69A1DB9F23900454C5D /* RRSpecailViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRSpecailViewViewController.h; sourceTree = "<group>"; };
@@ -745,6 +761,45 @@
 		1D35E6D01DB9FA1A00454C5D /* WXSTransitionProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSTransitionProperty.h; sourceTree = "<group>"; };
 		1D35E6D11DB9FA1A00454C5D /* WXSTransitionProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSTransitionProperty.m; sourceTree = "<group>"; };
 		1D35E6D21DB9FA1A00454C5D /* WXSTypedefConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSTypedefConfig.h; sourceTree = "<group>"; };
+		1D3C2DA41DBC60CF008F1BD4 /* RRScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRScoreViewController.m; sourceTree = "<group>"; };
+		1D3C2DA61DBC60CF008F1BD4 /* AllPerformanceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllPerformanceTableViewCell.h; sourceTree = "<group>"; };
+		1D3C2DA71DBC60CF008F1BD4 /* AllPerformanceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllPerformanceTableViewCell.m; sourceTree = "<group>"; };
+		1D3C2DA81DBC60CF008F1BD4 /* AllPerformanceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllPerformanceTableViewCell.xib; sourceTree = "<group>"; };
+		1D3C2DA91DBC60CF008F1BD4 /* AllPerformanceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllPerformanceView.h; sourceTree = "<group>"; };
+		1D3C2DAA1DBC60CF008F1BD4 /* AllPerformanceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllPerformanceView.m; sourceTree = "<group>"; };
+		1D3C2DAB1DBC60CF008F1BD4 /* ComplaintRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplaintRateView.h; sourceTree = "<group>"; };
+		1D3C2DAC1DBC60CF008F1BD4 /* ComplaintRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplaintRateView.m; sourceTree = "<group>"; };
+		1D3C2DAD1DBC60CF008F1BD4 /* MonthPerformanceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthPerformanceTableViewCell.h; sourceTree = "<group>"; };
+		1D3C2DAE1DBC60CF008F1BD4 /* MonthPerformanceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthPerformanceTableViewCell.m; sourceTree = "<group>"; };
+		1D3C2DAF1DBC60CF008F1BD4 /* MonthPerformanceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonthPerformanceTableViewCell.xib; sourceTree = "<group>"; };
+		1D3C2DB01DBC60CF008F1BD4 /* PerformanceDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceDetailTableViewCell.h; sourceTree = "<group>"; };
+		1D3C2DB11DBC60CF008F1BD4 /* PerformanceDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformanceDetailTableViewCell.m; sourceTree = "<group>"; };
+		1D3C2DB21DBC60CF008F1BD4 /* PerformanceDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PerformanceDetailTableViewCell.xib; sourceTree = "<group>"; };
+		1D3C2DB31DBC60CF008F1BD4 /* PerformanceRushTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceRushTableViewCell.h; sourceTree = "<group>"; };
+		1D3C2DB41DBC60CF008F1BD4 /* PerformanceRushTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformanceRushTableViewCell.m; sourceTree = "<group>"; };
+		1D3C2DB51DBC60CF008F1BD4 /* PerformanceRushTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PerformanceRushTableViewCell.xib; sourceTree = "<group>"; };
+		1D3C2DB61DBC60CF008F1BD4 /* PractiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PractiseView.h; sourceTree = "<group>"; };
+		1D3C2DB71DBC60CF008F1BD4 /* PractiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PractiseView.m; sourceTree = "<group>"; };
+		1D3C2DB81DBC60CF008F1BD4 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		1D3C2DB91DBC60CF008F1BD4 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		1D3C2DBA1DBC60CF008F1BD4 /* RRScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRScoreViewController.h; sourceTree = "<group>"; };
+		1D3C2DC91DBC614E008F1BD4 /* DVLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVLineChartView.h; sourceTree = "<group>"; };
+		1D3C2DCA1DBC614E008F1BD4 /* DVLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVLineChartView.m; sourceTree = "<group>"; };
+		1D3C2DCB1DBC614E008F1BD4 /* DVPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVPlot.h; sourceTree = "<group>"; };
+		1D3C2DCC1DBC614E008F1BD4 /* DVPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVPlot.m; sourceTree = "<group>"; };
+		1D3C2DCD1DBC614E008F1BD4 /* DVXAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVXAxisView.h; sourceTree = "<group>"; };
+		1D3C2DCE1DBC614E008F1BD4 /* DVXAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVXAxisView.m; sourceTree = "<group>"; };
+		1D3C2DCF1DBC614E008F1BD4 /* DVYAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVYAxisView.h; sourceTree = "<group>"; };
+		1D3C2DD01DBC614E008F1BD4 /* DVYAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVYAxisView.m; sourceTree = "<group>"; };
+		1D3C2DD11DBC614E008F1BD4 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		1D3C2DD21DBC614E008F1BD4 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		1D3C2DD31DBC614E008F1BD4 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		1D3C2DD41DBC614E008F1BD4 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		1D3C2DDB1DBC6587008F1BD4 /* RRHeadLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRHeadLineViewController.m; sourceTree = "<group>"; };
+		1D3C2DDD1DBC6587008F1BD4 /* AdTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdTableViewCell.h; sourceTree = "<group>"; };
+		1D3C2DDE1DBC6587008F1BD4 /* AdTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdTableViewCell.m; sourceTree = "<group>"; };
+		1D3C2DDF1DBC6587008F1BD4 /* AdTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdTableViewCell.xib; sourceTree = "<group>"; };
+		1D3C2DE01DBC6587008F1BD4 /* RRHeadLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRHeadLineViewController.h; sourceTree = "<group>"; };
 		1DD1C5EF1DBB993000325B9D /* TYLaunchAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLaunchAnimationProtocol.h; sourceTree = "<group>"; };
 		1DD1C5F01DBB993000325B9D /* TYLaunchBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLaunchBaseAnimation.h; sourceTree = "<group>"; };
 		1DD1C5F11DBB993000325B9D /* TYLaunchBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLaunchBaseAnimation.m; sourceTree = "<group>"; };
@@ -1010,6 +1065,7 @@
 		1D35E41E1DB9ACAA00454C5D /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				1D3C2DC81DBC614E008F1BD4 /* DVLineChartView */,
 				1DD68E331DBB52A3001A9923 /* BaiduMapSDK */,
 				1DD68E571DBB72B5001A9923 /* BaiduNaviSDK */,
 				1DD68E271DBB42E0001A9923 /* BlockUI */,
@@ -1759,8 +1815,9 @@
 		1D35E6821DB9F15900454C5D /* HeadLine */ = {
 			isa = PBXGroup;
 			children = (
-				1D35E68B1DB9F1FA00454C5D /* RRHeadLineViewController.h */,
-				1D35E68C1DB9F1FA00454C5D /* RRHeadLineViewController.m */,
+				1D3C2DE01DBC6587008F1BD4 /* RRHeadLineViewController.h */,
+				1D3C2DDB1DBC6587008F1BD4 /* RRHeadLineViewController.m */,
+				1D3C2DDC1DBC6587008F1BD4 /* Views */,
 			);
 			path = HeadLine;
 			sourceTree = "<group>";
@@ -1768,8 +1825,9 @@
 		1D35E6831DB9F15900454C5D /* Score */ = {
 			isa = PBXGroup;
 			children = (
-				1D35E6901DB9F20D00454C5D /* RRScoreViewController.h */,
-				1D35E6911DB9F20D00454C5D /* RRScoreViewController.m */,
+				1D3C2DBA1DBC60CF008F1BD4 /* RRScoreViewController.h */,
+				1D3C2DA41DBC60CF008F1BD4 /* RRScoreViewController.m */,
+				1D3C2DA51DBC60CF008F1BD4 /* Views */,
 			);
 			path = Score;
 			sourceTree = "<group>";
@@ -1852,6 +1910,62 @@
 				1D35E6D21DB9FA1A00454C5D /* WXSTypedefConfig.h */,
 			);
 			path = WXSTransition;
+			sourceTree = "<group>";
+		};
+		1D3C2DA51DBC60CF008F1BD4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D3C2DA61DBC60CF008F1BD4 /* AllPerformanceTableViewCell.h */,
+				1D3C2DA71DBC60CF008F1BD4 /* AllPerformanceTableViewCell.m */,
+				1D3C2DA81DBC60CF008F1BD4 /* AllPerformanceTableViewCell.xib */,
+				1D3C2DA91DBC60CF008F1BD4 /* AllPerformanceView.h */,
+				1D3C2DAA1DBC60CF008F1BD4 /* AllPerformanceView.m */,
+				1D3C2DAB1DBC60CF008F1BD4 /* ComplaintRateView.h */,
+				1D3C2DAC1DBC60CF008F1BD4 /* ComplaintRateView.m */,
+				1D3C2DAD1DBC60CF008F1BD4 /* MonthPerformanceTableViewCell.h */,
+				1D3C2DAE1DBC60CF008F1BD4 /* MonthPerformanceTableViewCell.m */,
+				1D3C2DAF1DBC60CF008F1BD4 /* MonthPerformanceTableViewCell.xib */,
+				1D3C2DB01DBC60CF008F1BD4 /* PerformanceDetailTableViewCell.h */,
+				1D3C2DB11DBC60CF008F1BD4 /* PerformanceDetailTableViewCell.m */,
+				1D3C2DB21DBC60CF008F1BD4 /* PerformanceDetailTableViewCell.xib */,
+				1D3C2DB31DBC60CF008F1BD4 /* PerformanceRushTableViewCell.h */,
+				1D3C2DB41DBC60CF008F1BD4 /* PerformanceRushTableViewCell.m */,
+				1D3C2DB51DBC60CF008F1BD4 /* PerformanceRushTableViewCell.xib */,
+				1D3C2DB61DBC60CF008F1BD4 /* PractiseView.h */,
+				1D3C2DB71DBC60CF008F1BD4 /* PractiseView.m */,
+				1D3C2DB81DBC60CF008F1BD4 /* TestView.h */,
+				1D3C2DB91DBC60CF008F1BD4 /* TestView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D3C2DC81DBC614E008F1BD4 /* DVLineChartView */ = {
+			isa = PBXGroup;
+			children = (
+				1D3C2DC91DBC614E008F1BD4 /* DVLineChartView.h */,
+				1D3C2DCA1DBC614E008F1BD4 /* DVLineChartView.m */,
+				1D3C2DCB1DBC614E008F1BD4 /* DVPlot.h */,
+				1D3C2DCC1DBC614E008F1BD4 /* DVPlot.m */,
+				1D3C2DCD1DBC614E008F1BD4 /* DVXAxisView.h */,
+				1D3C2DCE1DBC614E008F1BD4 /* DVXAxisView.m */,
+				1D3C2DCF1DBC614E008F1BD4 /* DVYAxisView.h */,
+				1D3C2DD01DBC614E008F1BD4 /* DVYAxisView.m */,
+				1D3C2DD11DBC614E008F1BD4 /* UIColor+Hex.h */,
+				1D3C2DD21DBC614E008F1BD4 /* UIColor+Hex.m */,
+				1D3C2DD31DBC614E008F1BD4 /* UIView+Extension.h */,
+				1D3C2DD41DBC614E008F1BD4 /* UIView+Extension.m */,
+			);
+			path = DVLineChartView;
+			sourceTree = "<group>";
+		};
+		1D3C2DDC1DBC6587008F1BD4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D3C2DDD1DBC6587008F1BD4 /* AdTableViewCell.h */,
+				1D3C2DDE1DBC6587008F1BD4 /* AdTableViewCell.m */,
+				1D3C2DDF1DBC6587008F1BD4 /* AdTableViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		1DD1C5EE1DBB993000325B9D /* TYLaunchAnimation */ = {
@@ -2199,10 +2313,15 @@
 				1D35E6121DB9B03B00454C5D /* IQKeyboardManager.bundle in Resources */,
 				1D35E6781DB9EE8200454C5D /* RootViewController_5.5.xib in Resources */,
 				1D35E6771DB9EE8200454C5D /* RootViewController_4.xib in Resources */,
+				1D3C2DC51DBC60D0008F1BD4 /* PerformanceRushTableViewCell.xib in Resources */,
+				1D3C2DC31DBC60D0008F1BD4 /* PerformanceDetailTableViewCell.xib in Resources */,
 				1D35E6131DB9B03B00454C5D /* Info.plist in Resources */,
 				1D35E6691DB9CFB300454C5D /* LeftMenuViewController.xib in Resources */,
 				1DD68E461DBB56E3001A9923 /* mapdata.plist in Resources */,
+				1D3C2DBD1DBC60D0008F1BD4 /* AllPerformanceTableViewCell.xib in Resources */,
 				1D35E6761DB9EE8200454C5D /* RootViewController_4.7.xib in Resources */,
+				1D3C2DE31DBC6587008F1BD4 /* AdTableViewCell.xib in Resources */,
+				1D3C2DC11DBC60D0008F1BD4 /* MonthPerformanceTableViewCell.xib in Resources */,
 				1DD1C5FD1DBB9A4D00325B9D /* Images.xcassets in Resources */,
 				1DD68DF81DBB30A1001A9923 /* TestVC.xib in Resources */,
 				1DD68E441DBB5313001A9923 /* mapapi.bundle in Resources */,
@@ -2223,7 +2342,6 @@
 				1D35E5DD1DB9B03B00454C5D /* YYReachability.m in Sources */,
 				1D35E6631DB9C43700454C5D /* UIManager.m in Sources */,
 				1DD68D671DBB261E001A9923 /* ConstraintAttributes.swift in Sources */,
-				1D35E68E1DB9F1FA00454C5D /* RRHeadLineViewController.m in Sources */,
 				1DD68DFF1DBB30A1001A9923 /* PopTaskView.m in Sources */,
 				1DD68D781DBB261E001A9923 /* ConstraintMakerPriortizable.swift in Sources */,
 				1DD68CFD1DBB23FB001A9923 /* Base_BaiDuMap.swift in Sources */,
@@ -2239,7 +2357,6 @@
 				1D35E5B01DB9B03B00454C5D /* UIView+YYAdd.m in Sources */,
 				1D35E5E61DB9B03B00454C5D /* HYBHelperKitBaseURLController.m in Sources */,
 				1D35E5FB1DB9B03B00454C5D /* UIButton+HYBHelperBlockKit.m in Sources */,
-				1D35E6931DB9F20D00454C5D /* RRScoreViewController.m in Sources */,
 				1DD68E241DBB3D55001A9923 /* PublicManager.swift in Sources */,
 				1D35E60D1DB9B03B00454C5D /* IQBarButtonItem.m in Sources */,
 				1D35E6D61DB9FA1A00454C5D /* WXSPercentDrivenInteractiveTransition.m in Sources */,
@@ -2309,12 +2426,16 @@
 				1D35E62A1DB9B03B00454C5D /* MJRefreshGifHeader.m in Sources */,
 				1DD68D731DBB261E001A9923 /* ConstraintLayoutSupportDSL.swift in Sources */,
 				1D35E5C81DB9B03B00454C5D /* YYTextKeyboardManager.m in Sources */,
+				1D3C2DBF1DBC60D0008F1BD4 /* ComplaintRateView.m in Sources */,
+				1D3C2DBC1DBC60CF008F1BD4 /* AllPerformanceTableViewCell.m in Sources */,
 				1D35E61D1DB9B03B00454C5D /* ViewController+MASAdditions.m in Sources */,
 				1D35E5AC1DB9B03B00454C5D /* UIScreen+YYAdd.m in Sources */,
 				1D35E5BE1DB9B03B00454C5D /* YYImageCoder.m in Sources */,
 				1D35E5CF1DB9B03B00454C5D /* UIPasteboard+YYText.m in Sources */,
+				1D3C2DD61DBC614E008F1BD4 /* DVPlot.m in Sources */,
 				1D35E61C1DB9B03B00454C5D /* View+MASAdditions.m in Sources */,
 				1DD68D751DBB261E001A9923 /* ConstraintMakerEditable.swift in Sources */,
+				1D3C2DC71DBC60D0008F1BD4 /* TestView.m in Sources */,
 				1D35E5E51DB9B03B00454C5D /* HYBHelperKitBaseController.m in Sources */,
 				1D35E5F01DB9B03B00454C5D /* NSString+HYBHelperKit.m in Sources */,
 				1DD68CF91DBB22C4001A9923 /* Map_top_detailView.swift in Sources */,
@@ -2329,9 +2450,11 @@
 				1D35E5EE1DB9B03B00454C5D /* NSNumber+HYBHelperKit.m in Sources */,
 				1D35E61A1DB9B03B00454C5D /* NSArray+MASAdditions.m in Sources */,
 				1D35E5C61DB9B03B00454C5D /* YYTextEffectWindow.m in Sources */,
+				1D3C2DE11DBC6587008F1BD4 /* RRHeadLineViewController.m in Sources */,
 				1D35E5971DB9B03B00454C5D /* NSDictionary+YYAdd.m in Sources */,
 				1D35E5EA1DB9B03B00454C5D /* NSDictionary+HYBHelperKit.m in Sources */,
 				1D35E6DF1DB9FA1A00454C5D /* WXSTransitionManager+TypeTool.m in Sources */,
+				1D3C2DE21DBC6587008F1BD4 /* AdTableViewCell.m in Sources */,
 				1DD68CF61DBB22C4001A9923 /* MapViewController.swift in Sources */,
 				1DD68D681DBB261E001A9923 /* ConstraintConfig.swift in Sources */,
 				1D35E6291DB9B03B00454C5D /* MJRefreshBackStateFooter.m in Sources */,
@@ -2352,6 +2475,7 @@
 				1D35E62F1DB9B03B00454C5D /* NSBundle+MJRefresh.m in Sources */,
 				1D35E6091DB9B03B00454C5D /* IQUIWindow+Hierarchy.m in Sources */,
 				1D35E5C01DB9B03B00454C5D /* YYWebImageManager.m in Sources */,
+				1D3C2DC21DBC60D0008F1BD4 /* PerformanceDetailTableViewCell.m in Sources */,
 				1D35E5ED1DB9B03B00454C5D /* NSMutableDictionary+HYBHelperKit.m in Sources */,
 				1D35E6981DB9F22100454C5D /* RRNormalViewViewController.m in Sources */,
 				1D35E5AE1DB9B03B00454C5D /* UITableView+YYAdd.m in Sources */,
@@ -2364,6 +2488,7 @@
 				1D35E5D31DB9B03B00454C5D /* YYTextRubyAnnotation.m in Sources */,
 				1D35E6D41DB9FA1A00454C5D /* UIViewController+WXSTransition.m in Sources */,
 				1D35E6D51DB9FA1A00454C5D /* UIViewController+WXSTransitionProperty.m in Sources */,
+				1D3C2DDA1DBC614E008F1BD4 /* UIView+Extension.m in Sources */,
 				1D35E59D1DB9B03B00454C5D /* NSObject+YYAddForKVO.m in Sources */,
 				1DD68D861DBB261E001A9923 /* UILayoutSupport+Extensions.swift in Sources */,
 				1D35E40A1DB9AA1800454C5D /* AppDelegate.mm in Sources */,
@@ -2380,6 +2505,7 @@
 				1DD68CF71DBB22C4001A9923 /* MapTaskViewData.swift in Sources */,
 				1D35E59A1DB9B03B00454C5D /* NSNumber+YYAdd.m in Sources */,
 				1D35E6081DB9B03B00454C5D /* IQUIViewController+Additions.m in Sources */,
+				1D3C2DD91DBC614E008F1BD4 /* UIColor+Hex.m in Sources */,
 				1D35E5E11DB9B03B00454C5D /* YYTimer.m in Sources */,
 				1D35E4071DB9AA1800454C5D /* main.m in Sources */,
 				1D35E5AA1DB9B03B00454C5D /* UIGestureRecognizer+YYAdd.m in Sources */,
@@ -2418,23 +2544,28 @@
 				1D35E59E1DB9B03B00454C5D /* NSString+YYAdd.m in Sources */,
 				1D35E6231DB9B03B00454C5D /* MJRefreshHeader.m in Sources */,
 				1D35E6221DB9B03B00454C5D /* MJRefreshFooter.m in Sources */,
+				1D3C2DC61DBC60D0008F1BD4 /* PractiseView.m in Sources */,
 				1D35E6011DB9B03B00454C5D /* UIColor+HYBHelperKitUIKit.m in Sources */,
 				1D35E5BF1DB9B03B00454C5D /* YYSpriteSheetImage.m in Sources */,
 				1D35E5C11DB9B03B00454C5D /* YYWebImageOperation.m in Sources */,
 				1D35E5C51DB9B03B00454C5D /* YYTextDebugOption.m in Sources */,
 				1D35E64C1DB9B3E300454C5D /* Common.m in Sources */,
 				1D35E65D1DB9C08400454C5D /* MMDrawerVisualState.m in Sources */,
+				1D3C2DD81DBC614E008F1BD4 /* DVYAxisView.m in Sources */,
 				1DD68D761DBB261E001A9923 /* ConstraintMakerExtendable.swift in Sources */,
 				1DD1C5FB1DBB993000325B9D /* UIView+TYLaunchAnimation.m in Sources */,
 				1D35E5FA1DB9B03B00454C5D /* UIWebView+HYBMasonryKit.m in Sources */,
+				1D3C2DD51DBC614E008F1BD4 /* DVLineChartView.m in Sources */,
 				1DD68E061DBB30A1001A9923 /* TaskDetailView.m in Sources */,
 				1D35E5B81DB9B03B00454C5D /* UIButton+YYWebImage.m in Sources */,
 				1DD68E031DBB30A1001A9923 /* TaskDetailFooter.m in Sources */,
 				1D35E5CD1DB9B03B00454C5D /* NSAttributedString+YYText.m in Sources */,
+				1D3C2DBB1DBC60CF008F1BD4 /* RRScoreViewController.m in Sources */,
 				1DD68D711DBB261E001A9923 /* ConstraintLayoutGuideDSL.swift in Sources */,
 				1D35E6151DB9B03B00454C5D /* MASConstraint.m in Sources */,
 				1D35E5A61DB9B03B00454C5D /* UIColor+YYAdd.m in Sources */,
 				1D35E5F11DB9B03B00454C5D /* NSTimer+HYBHelperKit.m in Sources */,
+				1D3C2DD71DBC614E008F1BD4 /* DVXAxisView.m in Sources */,
 				1D35E5D41DB9B03B00454C5D /* YYTextRunDelegate.m in Sources */,
 				1D35E5A91DB9B03B00454C5D /* UIFont+YYAdd.m in Sources */,
 				1D35E5E91DB9B03B00454C5D /* NSDate+HYBHelperKit.m in Sources */,
@@ -2470,12 +2601,15 @@
 				1DD68D771DBB261E001A9923 /* ConstraintMakerFinalizable.swift in Sources */,
 				1D35E5BB1DB9B03B00454C5D /* YYFrameImage.m in Sources */,
 				1D35E5A11DB9B03B00454C5D /* CALayer+YYAdd.m in Sources */,
+				1D3C2DBE1DBC60D0008F1BD4 /* AllPerformanceView.m in Sources */,
+				1D3C2DC41DBC60D0008F1BD4 /* PerformanceRushTableViewCell.m in Sources */,
 				1D35E5F91DB9B03B00454C5D /* UIView+HYBMasonryKit.m in Sources */,
 				1D35E5AD1DB9B03B00454C5D /* UIScrollView+YYAdd.m in Sources */,
 				1D35E5F21DB9B03B00454C5D /* NSUserDefaults+HYBHelperKit.m in Sources */,
 				1D35E5C91DB9B03B00454C5D /* YYTextLayout.m in Sources */,
 				1DD68D7F1DBB261E001A9923 /* ConstraintView+Extensions.swift in Sources */,
 				1D35E5EB1DB9B03B00454C5D /* NSFileManager+HYBHelperKit.m in Sources */,
+				1D3C2DC01DBC60D0008F1BD4 /* MonthPerformanceTableViewCell.m in Sources */,
 				1D35E62B1DB9B03B00454C5D /* MJRefreshNormalHeader.m in Sources */,
 				1D35E60A1DB9B03B00454C5D /* IQKeyboardManager.m in Sources */,
 				1D35E5C71DB9B03B00454C5D /* YYTextInput.m in Sources */,

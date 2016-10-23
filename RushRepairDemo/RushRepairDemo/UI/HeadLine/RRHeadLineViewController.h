@@ -1,13 +1,16 @@
 //
-//  RRHeadLineViewController.h
-//  RushRepairDemo
+//  AdViewController.h
+//  MPP
 //
-//  Created by xxcao on 2016/10/21.
+//  Created by 齐云 on 16/7/8.
 //  Copyright © 2016年 MobileArtisan. All rights reserved.
 //
 
-#import "RRBaseViewController.h"
 
 @interface RRHeadLineViewController : RRBaseViewController
+
+@property(nonatomic,strong) UIScrollView *scrollView;
+
+@property(nonatomic,strong) UIImageView *bgImgV;
 
 @end

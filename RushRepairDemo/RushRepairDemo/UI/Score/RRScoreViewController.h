@@ -1,12 +1,11 @@
 //
-//  RRScoreViewController.h
-//  RushRepairDemo
+//  PerformanceVCViewController.h
+//  MPP
 //
-//  Created by xxcao on 2016/10/21.
+//  Created by 齐云 on 16/7/15.
 //  Copyright © 2016年 MobileArtisan. All rights reserved.
 //
 
-#import "RRBaseViewController.h"
 
 @interface RRScoreViewController : RRBaseViewController
 
