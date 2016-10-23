@@ -6,31 +6,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RushRepairDemo/UI/RushRepair/MapView/ViewControllers/MapViewController.swift"
-            timestampString = "498909175.183246"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "306"
-            endingLineNumber = "306"
-            landmarkName = "congifTaskDetailTable(task:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RushRepairDemo/UI/RushRepair/MapView/ViewControllers/MapViewController.swift"
-            timestampString = "498909175.183246"
+            timestampString = "498914222.888007"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "621"
-            endingLineNumber = "621"
+            startingLineNumber = "618"
+            endingLineNumber = "618"
             landmarkName = "showAnnotation()"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RushRepairDemo/UI/RushRepair/MapView/ViewControllers/MapViewController.swift"
-            timestampString = "498909175.183246"
+            timestampString = "498914222.888007"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "633"
-            endingLineNumber = "633"
+            startingLineNumber = "630"
+            endingLineNumber = "630"
             landmarkName = "secondary_btnSeleted(coors:detaiStr:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -54,16 +38,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RushRepairDemo/UI/BaseViewController/Base_BaiDuMap.swift"
-            timestampString = "498909077.854678"
+            filePath = "RushRepairDemo/UI/RushRepair/MapView/ViewControllers/MapViewController.swift"
+            timestampString = "498914222.888007"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "197"
-            endingLineNumber = "197"
-            landmarkName = "baiDu_map_location()"
+            startingLineNumber = "328"
+            endingLineNumber = "328"
+            landmarkName = "congifTaskDetailTable(task:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RushRepairDemo/UI/RushRepair/MapView/ViewControllers/MapViewController.swift"
+            timestampString = "498914222.888007"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "331"
+            endingLineNumber = "331"
+            landmarkName = "congifTaskDetailTable(task:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

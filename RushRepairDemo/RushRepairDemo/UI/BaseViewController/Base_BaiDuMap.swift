@@ -22,8 +22,6 @@ class Base_BaiDuMap: BaesViewController, BMKMapViewDelegate, BMKLocationServiceD
     var didSelected_annotation_index = CLLocationCoordinate2D()
     var selectAnnateView = 0
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         mapView = BMKMapView(frame: self.view.bounds)
@@ -69,8 +67,7 @@ class Base_BaiDuMap: BaesViewController, BMKMapViewDelegate, BMKLocationServiceD
     
     //地图初始化完毕时会调用此接口
     func mapViewDidFinishLoading(_ mapView: BMKMapView!) {
-        //初始化暂不定位
-//        baiDu_map_location()
+        baiDu_map_location()
         changeUserIcon(icon: user_icon)
     }
     //地图状态改变完成后会调用此接口
@@ -215,15 +212,12 @@ class Base_BaiDuMap: BaesViewController, BMKMapViewDelegate, BMKLocationServiceD
     
     //用户位置更新后，会调用此函数
     func didUpdate(_ userLocation: BMKUserLocation!) {
-//        location!(userLocation)
         p_user_location = userLocation
         mapView?.showsUserLocation = true//显示定位图层
         mapView?.updateLocationData(userLocation) //更新定位
         
-//        let region = BMKCoordinateRegion(center: userLocation.location.coordinate, span: .init(latitudeDelta: 0.1, longitudeDelta: 0.1))
-//        mapView?.setRegion(region, animated: true)
-        
-        
+        //        let region = BMKCoordinateRegion(center: userLocation.location.coordinate, span: .init(latitudeDelta: 0.1, longitudeDelta: 0.1))
+        //        mapView?.setRegion(region, animated: true)
     }
     
     //定位失败后，会调用此函数
