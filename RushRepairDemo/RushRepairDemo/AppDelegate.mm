@@ -109,5 +109,29 @@
     NSLog(@"Map Permiss Error Code is:%d",iError);
 }
 
+@end
+
+@implementation UINavigationBar (CustomImage)
+- (UIImage *)barBackground {
+    UIImage *img = [Common drawImageSize:Size(Screen_Width, 44.0) Color:ColorRGB(48.0, 111.0, 235.0)];
+    return [img stretchableImageWithLeftCapWidth:0 topCapHeight:20];
+}
+
+- (void)didMoveToSuperview {
+    if ([self respondsToSelector:@selector(setBackgroundImage:forBarMetrics:)]) {
+        [self setBackgroundImage:[self barBackground] forBarMetrics:UIBarMetricsDefault];
+        if (iOS7) {
+            [self setBarStyle:UIBarStyleBlack];
+        }
+        
+        NSShadow *shadow = [[NSShadow alloc] init];
+        shadow.shadowColor = [UIColor blackColor];
+        shadow.shadowOffset = Size(0.5, 0.5);
+        NSDictionary *dic = @{NSForegroundColorAttributeName : [UIColor whiteColor],
+                              NSShadowAttributeName : shadow,
+                              NSFontAttributeName : [UIFont boldSystemFontOfSize:20.0]};
+        [self setTitleTextAttributes:dic];
+    }
+}
 
 @end

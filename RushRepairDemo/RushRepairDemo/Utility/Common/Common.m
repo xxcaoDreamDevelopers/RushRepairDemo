@@ -7,6 +7,7 @@
 //
 
 #import "Common.h"
+#import "BlockUI.h"
 
 @implementation Common
 
@@ -117,6 +118,38 @@
               blue: (float)blueByte / 0xff
               alpha: 1.0];
     return result;
+}
+
+//生成自己绘制的图片
++ (UIImage *)drawImageSize:(CGSize)size
+                     Color:(UIColor *)color {
+    UIGraphicsBeginImageContextWithOptions(size, 0, [UIScreen mainScreen].scale);
+    [color set];
+    UIRectFill(Frame(0, 0, size.width, size.height));
+    UIImage *resImg = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return resImg;
+}
+
++ (UIBarButtonItem *)createBackBarButton:(NSString *)name
+                                Selector:(void(^)())block {
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, 0, 20, 20);
+    [btn handleControlEvent:UIControlEventTouchUpInside withBlock:block];
+    [btn setImage:[UIImage imageNamed:@"common-back"]
+         forState:UIControlStateNormal];
+    [btn setImage:[UIImage imageNamed:@"common-back"]
+         forState:UIControlStateHighlighted];
+    if (![Common isEmptyString:name]) {
+        [btn setTitle:name
+             forState:UIControlStateNormal];
+        [btn setTitleColor:[UIColor whiteColor]
+                  forState:UIControlStateNormal];
+        [btn.titleLabel setFont:[UIFont systemFontOfSize:15]];
+        [btn sizeToFit];
+    }
+    UIBarButtonItem *barItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
+    return barItem;
 }
 
 @end

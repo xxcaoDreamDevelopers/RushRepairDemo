@@ -26,4 +26,10 @@
 //根据16进制显示颜色
 + (UIColor *)colorFromHexRGB:(NSString *)inColorString;
 
+//画纯色图片
++ (UIImage *)drawImageSize:(CGSize)size
+                     Color:(UIColor *)color;
+//返回按钮
++ (UIBarButtonItem *)createBackBarButton:(NSString *)name
+                                Selector:(void(^)())block;
 @end

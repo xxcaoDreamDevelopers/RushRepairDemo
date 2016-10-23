@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"头条";
+    self.navigationItem.leftBarButtonItem = [Common createBackBarButton:nil Selector:^{
+        [self.navigationController popViewControllerAnimated:YES];
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

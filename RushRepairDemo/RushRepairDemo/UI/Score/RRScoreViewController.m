@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"积分";
+    self.navigationItem.leftBarButtonItem = [Common createBackBarButton:nil Selector:^{
+        [self.navigationController popViewControllerAnimated:YES];
+    }];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
