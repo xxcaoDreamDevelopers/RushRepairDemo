@@ -42,6 +42,7 @@
 
 @property (weak, nonatomic) IBOutlet UIView *rootPerformenceView;
 @property (weak, nonatomic) IBOutlet UILabel *performNum;
+@property (weak, nonatomic) IBOutlet UILabel *timeNum;
 
 
 @property(nonatomic,weak)IBOutlet UIButton *btn1;
@@ -59,6 +60,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //for test
+    self.repairNum.text = @"9";
+    self.nearRepairNum.text = @"6";
+    self.performNum.text = @"12";
+    self.timeNum.text = @"10:59";
 }
 
 -(void)viewWillAppear:(BOOL)animated {

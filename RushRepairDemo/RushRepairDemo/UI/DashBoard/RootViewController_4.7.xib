@@ -22,6 +22,7 @@
                 <outlet property="rootPerformenceView" destination="cpd-xU-BFU" id="RHK-nJ-iw0"/>
                 <outlet property="rootRushView" destination="vOz-jk-wF0" id="gZw-hM-vhX"/>
                 <outlet property="rootTestView" destination="grA-xN-iho" id="Eq7-5v-QVE"/>
+                <outlet property="timeNum" destination="py5-S4-L8t" id="E5D-TU-VYX"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
